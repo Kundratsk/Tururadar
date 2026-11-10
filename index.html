@@ -16,6 +16,9 @@ h1{font-size:1.7rem;margin:0;letter-spacing:-.02em}
 .sub{color:var(--mute);font-size:.85rem}
 button{font:inherit;background:var(--acc);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
 button:focus-visible,a:focus-visible,.chip:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.tabs{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px;background:var(--bg);padding:8px 0;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.tabs button{background:none;color:var(--mute);font-weight:600}
+.tabs button[aria-selected=true]{background:var(--ink);color:var(--bg)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
 h2{font-size:1rem;margin:0 0 10px}
 .mood{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
@@ -63,6 +66,12 @@ footer{margin-top:22px;color:var(--mute);font-size:.78rem}
   <button id="refresh" type="button">Värskenda</button>
 </header>
 
+<nav class="tabs" id="tabs" aria-label="Uudiste valik">
+  <button type="button" data-r="all" aria-selected="true">Kõik uudised</button>
+  <button type="button" data-r="world" aria-selected="false">Maailm ja turud</button>
+  <button type="button" data-r="ee" aria-selected="false">Eesti</button>
+</nav>
+
 <section class="mood">
   <div class="card">
     <h2>Uudiste meeleolu</h2>
@@ -89,7 +98,7 @@ footer{margin-top:22px;color:var(--mute);font-size:.78rem}
 </section>
 
 <footer>
-  Andmed: Yahoo Finance, CoinGecko, Frankfurter, CNBC, MarketWatch, BBC (kogutud serveris, fail data.json). Meeleolu arvutatakse pealkirjade märksõnade järgi – see on lihtne hinnang, mitte investeerimisnõu.
+  Andmed: Yahoo Finance, CoinGecko, Frankfurter, CNBC, MarketWatch, BBC, ERR, Postimees, Äripäev (kogutud serveris, fail data.json). Meeleolu arvutatakse pealkirjade märksõnade järgi – see on lihtne hinnang, mitte investeerimisnõu.
 </footer>
 </div>
 
@@ -125,8 +134,19 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const rx = k => new RegExp("\\b" + k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&") + "\\b", "i");
 const BULL_RX = BULL.map(rx), BEAR_RX = BEAR.map(rx);
-TOPICS.forEach(t => t.rx = t.keys.map(rx));
-let active = null, items = [];
+const EE = {
+  rates:["euribor","intress","eesti pank","keskpank"], infl:["inflatsioon","hinnatõus","tarbijahind"],
+  jobs:["töötus","tööpuudus","koondamin","palk"], oil:["nafta","kütus","elektri","gaasi","energia"],
+  tech:["tehisintellekt","tarkvara","startup"], earn:["kasum","käive","kvartal","tulemus"],
+  geo:["sõda","sõja","sanktsioon","toll","venemaa","ukraina","iisrael","valim"], crypto:["krüpto","bitcoin"],
+  banks:["pank","swedbank","lhv","luminor","laen"]
+};
+const prefix = k => new RegExp("(^|[^\\p{L}])" + k, "iu");
+TOPICS.forEach(t => t.rx = t.keys.map(rx).concat((EE[t.id] || []).map(prefix)));
+const BULL_EE = ["tõus","kasv","rekord","kasum","paran","soodne","edu"].map(prefix);
+const BEAR_EE = ["langus","langes","langeb","kriis","koonda","sõda","sõja","hinnatõus","kallin","pankrot","hoiat","vähen","kahjum","maksutõus"].map(prefix);
+let active = null, items = [], region = "all";
+const vis = () => items.filter(i => region === "all" || i.reg === region);
 
 function parseDate(s) {
   if (!s) return Date.now();
@@ -176,23 +196,23 @@ function renderMarkets(qs) {
 function buildItems(news) {
   items = news.map(it => {
     const text = it.title + " " + (it.desc || "");
-    const bull = BULL_RX.filter(r => r.test(it.title)).length, bear = BEAR_RX.filter(r => r.test(it.title)).length;
-    return {title:it.title, link:it.link, src:it.src, img:it.img || "", date:parseDate(it.date), score:bull-bear,
+    const bull = BULL_RX.concat(BULL_EE).filter(r => r.test(it.title)).length, bear = BEAR_RX.concat(BEAR_EE).filter(r => r.test(it.title)).length;
+    return {title:it.title, link:it.link, src:it.src, reg:it.reg || "world", img:it.img || "", date:parseDate(it.date), score:bull-bear,
       topics:TOPICS.filter(t => t.rx.some(r => r.test(text))).map(t => t.id)};
   }).sort((a,b) => b.date - a.date).slice(0, 80);
   renderMood(); renderTopics(); renderNews();
 }
 function renderMood() {
   let b = 0, r = 0;
-  items.forEach(i => { if (i.score > 0) b++; else if (i.score < 0) r++; });
+  vis().forEach(i => { if (i.score > 0) b++; else if (i.score < 0) r++; });
   const mood = Math.round(100 * (b - r) / (b + r + 1));
   const el = $("moodNum"); el.textContent = (mood > 0 ? "+" : "") + mood; el.className = "big " + cls(mood / 20);
   $("moodPin").style.left = (50 + mood / 2) + "%";
-  $("moodTxt").textContent = `${b} positiivset, ${r} negatiivset ja ${items.length - b - r} neutraalset pealkirja.`;
+  $("moodTxt").textContent = `${b} positiivset, ${r} negatiivset ja ${vis().length - b - r} neutraalset pealkirja.`;
 }
 function renderTopics() {
   $("topics").innerHTML = TOPICS.map(t => {
-    const n = items.filter(i => i.topics.includes(t.id)).length;
+    const n = vis().filter(i => i.topics.includes(t.id)).length;
     return n ? `<button class="chip" type="button" data-id="${t.id}" aria-pressed="${active===t.id}">${esc(t.label)}<em>${n}</em></button>` : "";
   }).join("");
   document.querySelectorAll(".chip").forEach(c => c.onclick = () => {
@@ -202,7 +222,7 @@ function renderTopics() {
   ex.style.display = t ? "block" : "none"; if (t) ex.textContent = t.info;
 }
 function renderNews() {
-  const list = active ? items.filter(i => i.topics.includes(active)) : items;
+  const list = active ? vis().filter(i => i.topics.includes(active)) : vis();
   $("news").innerHTML = list.length ? list.slice(0, 36).map(i => {
     const d = i.score > 0 ? ["up","▲"] : i.score < 0 ? ["down","▼"] : ["flat","•"];
     const tags = i.topics.slice(0, 2).map(id => `<span class="tag">${esc(TOPICS.find(t => t.id === id).label)}</span>`).join("");
@@ -211,7 +231,7 @@ function renderNews() {
       <div class="body"><div class="meta">${esc(i.src)} · ${ago(i.date)}</div>
       <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
       <div class="meta">${tags}</div></div></li>`;
-  }).join("") : `<li class="empty">${items.length ? "Selle teema kohta pole täna uudiseid." : "Uudiseid pole. Käivita fetch_data.py, et luua data.json."}</li>`;
+  }).join("") : `<li class="empty">${vis().length ? "Selle teema kohta pole täna uudiseid." : "Uudiseid pole. Käivita fetch_data.py, et luua data.json."}</li>`;
 }
 
 // ---------- KÄIVITUS ----------
@@ -220,6 +240,11 @@ async function refresh() {
   await loadData();
   $("refresh").disabled = false;
 }
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
+  region = b.dataset.r; active = null;
+  document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  renderMood(); renderTopics(); renderNews();
+});
 $("refresh").onclick = refresh;
 refresh(); setInterval(refresh, REFRESH_MS);
 </script>

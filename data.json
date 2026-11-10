@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T09:07:26.644149+00:00",
+ "updated": "2026-11-10T09:34:32.276581+00:00",
  "quotes": [
   {
    "name": "S&P 500",
@@ -24,29 +24,29 @@
   },
   {
    "name": "Euro Stoxx 50",
-   "price": 6355.87,
-   "pct": 1.0399891899625635,
+   "price": 6350.86,
+   "pct": 0.960344649428894,
    "index": true,
    "digits": 2
   },
   {
    "name": "VIX (hirm)",
-   "price": 19.67,
-   "pct": -1.255020080321285,
+   "price": 20.12,
+   "pct": 1.0040160642570244,
    "index": false,
    "digits": 2
   },
   {
    "name": "Nafta (WTI)",
-   "price": 84.57,
-   "pct": -2.6252158894645956,
+   "price": 84.92,
+   "pct": -2.222222222222214,
    "index": false,
    "digits": 2
   },
   {
    "name": "Kuld",
-   "price": 4123.2,
-   "pct": 0.21144732045205536,
+   "price": 4104.1,
+   "pct": -0.25276461295417757,
    "index": false,
    "digits": 2
   },
@@ -59,15 +59,15 @@
   },
   {
    "name": "Bitcoin",
-   "price": 74357,
-   "pct": -0.2693559907713947,
+   "price": 74350,
+   "pct": 0.14565933841699522,
    "prefix": "$",
    "digits": 0
   },
   {
    "name": "Ethereum",
-   "price": 2103.44,
-   "pct": -0.8502874060894907,
+   "price": 2101.32,
+   "pct": -0.33694910189616717,
    "prefix": "$",
    "digits": 0
   },
@@ -80,33 +80,136 @@
  ],
  "news": [
   {
+   "title": "Nvidia stock edges higher as pressure mounts following alleged China spy links",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+   "src": "CNBC",
+   "reg": "world",
+   "date": "2026-11-10T09:29:20+00:00",
+   "desc": "Investors continue to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.",
+   "img": ""
+  },
+  {
+   "title": "China's goods surplus tops $1 trillion for second year amid calls for Beijing to rebalance trade",
+   "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+   "src": "CNBC",
+   "reg": "world",
+   "date": "2026-11-10T09:27:16+00:00",
+   "desc": "China's trade surplus topped $1 trillion as of October, potentially intensifying complaints from trading partners already wary over the glut of cheap Chinese goods.",
+   "img": ""
+  },
+  {
+   "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
+   "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "reg": "world",
+   "date": "2026-11-10T09:26:59+00:00",
+   "desc": "The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e26a/live/d5c09440-dce7-11f1-a8e1-e3454837ffc6.jpg"
+  },
+  {
+   "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+   "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "reg": "world",
+   "date": "2026-11-10T09:23:55+00:00",
+   "desc": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7d5c/live/48fcfe10-dc9a-11f1-adfe-2165436acfb4.jpg"
+  },
+  {
+   "title": "Prediction: This Is Where SpaceX Stock Will Be at the End of 2027",
+   "link": "https://www.fool.com/investing/2026/11/10/prediction-this-is-where-spacex-stock-will-be-at-t/?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "reg": "world",
+   "date": "2026-11-10T09:16:00+00:00",
+   "desc": "Artificial intelligence is driving rapid growth.",
+   "img": ""
+  },
+  {
+   "title": "Headteachers say families will struggle after another rise in school dinner prices",
+   "link": "https://www.bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "reg": "world",
+   "date": "2026-11-10T09:13:30+00:00",
+   "desc": "The price of a school dinner in a primary school will have risen from £2.60 to £3.40 since the start of 2026.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ca3/live/100121b0-dc75-11f1-bbe9-83c09cc9b23f.jpg"
+  },
+  {
+   "title": "Beyond Nvidia: 6 stocks winning the AI infrastructure buildout",
+   "link": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-6-stocks-winning-090950680.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "reg": "world",
+   "date": "2026-11-10T09:09:50+00:00",
+   "desc": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+   "img": ""
+  },
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq trade mixed ahead of key inflation data",
+   "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "reg": "world",
+   "date": "2026-11-10T09:06:27+00:00",
+   "desc": "Investors awaited a key inflation report that could sway the Federal Reserve's interest rate decision next month.",
+   "img": ""
+  },
+  {
    "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
    "link": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T09:01:37+00:00",
    "desc": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
+   "img": ""
+  },
+  {
+   "title": "Cathie Wood Bought Just 3 Stocks On Monday; Here They Are",
+   "link": "https://www.fool.com/investing/2026/11/10/cathie-wood-bought-just-3-stocks-on-monday-here-they-are/?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "reg": "world",
+   "date": "2026-11-10T09:01:07+00:00",
+   "desc": "The aggressive growth instructor was picky with her purchases to kick off the new trading week.",
+   "img": ""
+  },
+  {
+   "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+   "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+   "src": "CNBC",
+   "reg": "world",
+   "date": "2026-11-10T09:00:01+00:00",
+   "desc": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
    "img": ""
   },
   {
    "title": "Autobrains Brings NVIDIA Alpamayo Intelligence to the Road",
    "link": "https://finance.yahoo.com/technology/ai/articles/autobrains-brings-nvidia-alpamayo-intelligence-090000945.html?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T09:00:00+00:00",
    "desc": "TEL AVIV, Israel, November 10, 2026--Autobrains today announced an expansion of its work with NVIDIA, incorporating the reasoning capabilities of NVIDIA Alpamayo 2 Super into real-world autonomous dri",
+   "img": ""
+  },
+  {
+   "title": "ControlUp Helps SimpsonHaugh Protect Up to £2.56 Million in Productive Capacity Annually",
+   "link": "https://finance.yahoo.com/technology/ai/articles/controlup-helps-simpsonhaugh-protect-2-090000398.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "reg": "world",
+   "date": "2026-11-10T09:00:00+00:00",
+   "desc": "New productivity analysis shows ROI has grown significantly while also freeing IT capacity, consolidating tools and supporting staff wellbeingLONDON, Nov. 10, 2026 (GLOBE NEWSWIRE) -- ControlUp, a com",
    "img": ""
   },
   {
    "title": "Nvidia sued by investors over ‘Chinese spy’ affair",
    "link": "https://uk.finance.yahoo.com/news/nvidia-sued-investors-over-chinese-085523836.html?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:55:23+00:00",
-   "desc": "Nvidia is facing a legal challenge from investors over claims the company lied about Jensen Huang’s affair with an alleged Chinese spy.",
+   "desc": "Nvidia is being sued by investors over claims it lied about Jensen Huang’s affair with an alleged Chinese spy.",
    "img": ""
   },
   {
    "title": "Nvidia’s China Spy Fallout Deepens: Report Says Moonshot AI Accessed NVDA’s Advanced Chips Despite Export Controls",
    "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-china-spy-fallout-deepens-report-says-moonshot-ai-accessed-nvda-s-advanced-chips-despite-export-controls/cNGua6lR97A?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:48:56+00:00",
    "desc": "Moonshot AI accessed Nvidia’s B300 servers through a deal with Super Micro, and it's unclear whether it obtained a permit, according to a Bloomberg report.",
    "img": ""
@@ -115,6 +218,7 @@
    "title": "Altria Yields Nearly 6%. Here's Why I'd Buy It for a Lifetime of Passive Income.",
    "link": "https://www.fool.com/investing/2026/11/10/altria-yields-nearly-6-heres-why-id-buy-it-for-a-l/?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:35:00+00:00",
    "desc": "Altria's dividend yield is almost 6%. Here's what supports the payout, the risks to watch, and why income investors might hold it for decades.",
    "img": ""
@@ -123,6 +227,7 @@
    "title": "Elon Musk Ally Jason Calacanis Bets Another $1M On Uber — Says Waymo Team-Up Could Steal Tesla’s Driverless Crown",
    "link": "https://stocktwits.com/news-articles/markets/equity/elon-musk-ally-jason-calacanis-1m-uber-waymo-team-up-steal-tesla-driverless-crown/cNGuaWKR97Y?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:25:57+00:00",
    "desc": "Jason Calacanis said he bought another $1 million of Uber shares at $65, calling it half price under his valuation model.",
    "img": ""
@@ -131,6 +236,7 @@
    "title": "Why Netflix Stock Plunged 11% in October",
    "link": "https://www.fool.com/investing/2026/11/10/why-netflix-stock-plunged-11-in-october/?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:25:02+00:00",
    "desc": "The streaming pioneer is facing a crisis of confidence, but continues to execute on its mission.",
    "img": ""
@@ -139,6 +245,7 @@
    "title": "Tech leads stock rally as traders track Wall St rebound",
    "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:23:52+00:00",
    "desc": "Stocks rallied Tuesday to extend a Wall Street surge led by technology firms as investors took advantage of lower prices following last week's rout, while another plunge in oil prices added to the upb",
    "img": ""
@@ -147,6 +254,7 @@
    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T08:23:21+00:00",
    "desc": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/123a/live/434e87b0-dcd9-11f1-a701-fddedf244c16.png"
@@ -155,6 +263,7 @@
    "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
    "link": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T08:22:49+00:00",
    "desc": "The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and diabetes.",
    "img": ""
@@ -163,22 +272,16 @@
    "title": "SPCX Stock Climbs Overnight: Tesla Influencer Presses Texas Governor-Elect — Analyst Sees 10,000 AI Racks In Space By 2028",
    "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-tesla-influencer-texas-governor-elect-analyst-10000-ai-racks-space-2028/cNGua33R97o?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T08:16:07+00:00",
    "desc": "Analyst Jeff Pu forecasts 10,000 AI racks and 5GW of SpaceX space-computing capacity by 2028.",
    "img": ""
   },
   {
-   "title": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
-   "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-10T08:07:16+00:00",
-   "desc": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7d5c/live/48fcfe10-dc9a-11f1-adfe-2165436acfb4.jpg"
-  },
-  {
    "title": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound",
    "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T08:06:29+00:00",
    "desc": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
    "img": ""
@@ -187,6 +290,7 @@
    "title": "Wall Street Expects Nvidia to Sell “a Trillion Dollars of Chips” in 2029. One Investor Doubts It",
    "link": "https://www.tikr.com/blog/wall-street-expects-nvidia-to-sell-a-trillion-dollars-of-chips-in-2029-one-investor-doubts-it?ref=yahoofinance&tlnk=yf-261110-2g7jg74g&.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T07:49:26+00:00",
    "desc": "Key TakeawaysNvidia trades at about 15x forward earnings after a 9% drop on Nov. 5, half its three-year average.",
    "img": ""
@@ -195,6 +299,7 @@
    "title": "These 5 Internet Platform Stocks Run on Advertising Dollars",
    "link": "https://www.fool.com/investing/2026/11/10/these-5-internet-platform-stocks-run-on-advertising-dollars/?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T07:07:02+00:00",
    "desc": "Ad growth slowed at all five of these companies last quarter. Which ones have something else to rely on?",
    "img": ""
@@ -203,6 +308,7 @@
    "title": "Why Is TSM Stock Rising Overnight?",
    "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-overnight/cNGuJ4aR97V?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T07:02:08+00:00",
    "desc": "The Taiwanese contract chipmaker said October revenue rose 60%, outpacing last quarter's growth.",
    "img": ""
@@ -211,22 +317,16 @@
    "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
    "link": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T07:00:02+00:00",
    "desc": "“Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.",
-   "img": ""
-  },
-  {
-   "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
-   "link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
-   "src": "CNBC",
-   "date": "2026-11-10T06:52:30+00:00",
-   "desc": "Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.",
    "img": ""
   },
   {
    "title": "Quantexa Launches Supply Chain Integrity & Fraud Solution with PwC, to Expose Hidden Risk Across Multi-Tier Supplier Networks",
    "link": "https://finance.yahoo.com/technology/ai/articles/quantexa-launches-supply-chain-integrity-063000206.html?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T06:30:00+00:00",
    "desc": "Built on Quantexa’s Decision Intelligence Platform and Microsoft Azure, the solution delivers end-to-end supplier visibility and monitoring across compliance, financial risk and ESGLONDON and NEW YORK",
    "img": ""
@@ -235,6 +335,7 @@
    "title": "Independent bookshop closing after rise in bills",
    "link": "https://www.bbc.co.uk/news/articles/crx2dd92ne9yo?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T06:22:52+00:00",
    "desc": "The Chicken and Frog in Brentwood says business rates and electricity bills have risen dramatically.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/10e5/live/f9225030-d9f0-11f1-bb10-cdca6001fbcf.jpg"
@@ -243,6 +344,7 @@
    "title": "Holiday hunger bill to face final Stormont hurdle",
    "link": "https://www.bbc.co.uk/news/articles/cmewewgvrwpqo?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T06:21:02+00:00",
    "desc": "The new law would would help poorer families with food costs during school holidays.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/059e/live/1ea6c070-dc5d-11f1-8fe6-5becaee5408f.jpg"
@@ -251,6 +353,7 @@
    "title": "The Zacks Analyst Blog Highlights Nucor, UCB and Cheniere Energy",
    "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nucor-062000448.html?.tsrc=rss",
    "src": "Yahoo Finance",
+   "reg": "world",
    "date": "2026-11-10T06:20:00+00:00",
    "desc": "NUE, UCBJY and LNG headline fresh stock picks as investors weigh AI regulation, inflation risks, oil prices and global economic developments.",
    "img": ""
@@ -259,70 +362,25 @@
    "title": "Trump’s C-SPAN call marks latest surprise post-midterm appearance",
    "link": "https://www.cnbc.com/2026/11/10/trump-cspan-call-elections.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T06:19:09+00:00",
    "desc": "Trump called C-SPAN's new primetime show unannounced after a surprise White House briefing-room and ballroom appearances.",
-   "img": ""
-  },
-  {
-   "title": "Alphabet, Amazon and Meta Haven’t Bought Back a Share in 2026. Big Tech Buybacks Fell 90%",
-   "link": "https://www.tikr.com/blog/alphabet-amazon-and-meta-havent-bought-back-a-share-in-2026-big-tech-buybacks-fell-90?ref=yahoofinance&tlnk=yf-261110-mv2r372c&.tsrc=rss",
-   "src": "Yahoo Finance",
-   "date": "2026-11-10T06:12:48+00:00",
-   "desc": "Key TakeawaysCombined buybacks at Alphabet, Amazon, Microsoft, Meta and Oracle fell to $4. 4 billion in the third quarter, 90% below their late-2021 peak, according to a tally by The Kobeissi Letter.",
    "img": ""
   },
   {
    "title": "New chief outlines main issues facing Isle of Man",
    "link": "https://www.bbc.co.uk/news/articles/cw0737zmv799o?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T06:09:01+00:00",
    "desc": "The chief minister says connectivity and food storage were among his top government priorities.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1002/live/e64feac0-dc44-11f1-95cf-a38331e6cb4b.jpg"
   },
   {
-   "title": "Amazon's Black Friday Week and Cyber Monday Return November 19-30 with Millions of Deals to Deliver Joy This Holiday Season",
-   "link": "https://finance.yahoo.com/media-advertising/articles/amazons-black-friday-week-cyber-060000001.html?.tsrc=rss",
-   "src": "Yahoo Finance",
-   "date": "2026-11-10T06:00:00+00:00",
-   "desc": "SEATTLE, November 10, 2026--Amazon (NASDAQ: AMZN) today announced its Black Friday Week and Cyber Monday deal events return November 19-30, kicking off the biggest holiday shopping season of the year ",
-   "img": ""
-  },
-  {
-   "title": "AMD Stock Clocks Best Day In 6 Months — But Michael Burry Won’t Touch The Nvidia Headline Trade",
-   "link": "https://stocktwits.com/news-articles/markets/equity/amd-stock-michael-burry-wont-touch-nvidia-headline-trade/cNGu40nR97l?.tsrc=rss",
-   "src": "Yahoo Finance",
-   "date": "2026-11-10T05:59:07+00:00",
-   "desc": "Burry trimmed 25% of his SMH puts last week but retained substantial bearish semiconductor exposure.",
-   "img": ""
-  },
-  {
-   "title": "CRWV Rallies Ahead Of Quarterly Report: Wells Fargo Calls CoreWeave ‘Highest Quality’ Firm Among Neocloud Peers, Sees Upside",
-   "link": "https://stocktwits.com/news-articles/markets/equity/crwv-rallies-ahead-of-quarterly-report-wells-fargo-calls-core-weave-highest-quality-firm-among-neocloud-peers-sees-upside/cNGu4iQR97k?.tsrc=rss",
-   "src": "Yahoo Finance",
-   "date": "2026-11-10T05:58:27+00:00",
-   "desc": "CoreWeave’s report, followed by Nebius’s, will give investors a clearer view of the neocloud sector amid a difficult stretch.",
-   "img": ""
-  },
-  {
-   "title": "EVgo: 3 Key Takeaways for Long-Term Investors",
-   "link": "https://www.fool.com/earnings/takeaways/2026/11/10/evgo-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-   "src": "Yahoo Finance",
-   "date": "2026-11-10T05:56:08+00:00",
-   "desc": "EVgo's $787 million in available liquidity and low-cost federal loans give it room to fund growth while it tightens spending, a balance long-term holders will need to watch.",
-   "img": ""
-  },
-  {
-   "title": "Moonshot AI rents Nvidia’s top chips in China, Bloomberg reports",
-   "link": "https://finance.yahoo.com/technology/ai/articles/moonshot-ai-rents-nvidia-top-054313159.html?.tsrc=rss",
-   "src": "Yahoo Finance",
-   "date": "2026-11-10T05:43:13+00:00",
-   "desc": "Investing.com-- Chinese artificial intelligence startup Moonshot accessed Nvidia’s most advanced chips this summer, Bloomberg reported on Tuesday, citing documents filed with Beijing regulators.",
-   "img": ""
-  },
-  {
    "title": "TSMC's October sales jump as global chip boom rolls on",
    "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T05:42:42+00:00",
    "desc": "TSMC reports its monthly sales figures for October on Tuesday.",
    "img": ""
@@ -331,22 +389,16 @@
    "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
    "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T05:22:39+00:00",
    "desc": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c11d/live/472ca6e0-dcc6-11f1-a594-d13718d7f889.jpg"
   },
   {
-   "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
-   "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
-   "src": "CNBC",
-   "date": "2026-11-10T05:03:55+00:00",
-   "desc": "Goods exports soared by 35.2% last month from a year earlier, exceeding expectations for a 33.5% jump in a Reuters poll and slowing from a 36.3% jump in September.",
-   "img": ""
-  },
-  {
    "title": "Trump sees 'strong inclination' to end Russia-Ukraine war ahead of U.S.-brokered peace talks",
    "link": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-10T04:46:37+00:00",
    "desc": "President Trump signaled optimism for the end of Russia's war in Ukraine ahead of trilateral negotiation talks set to commence later today in Abu Dhabi.",
    "img": ""
@@ -355,6 +407,7 @@
    "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
    "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
    "src": "MarketWatch",
+   "reg": "world",
    "date": "2026-11-10T03:38:00+00:00",
    "desc": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
    "img": "https://images.mktw.net/im-41887542"
@@ -363,6 +416,7 @@
    "title": "Californians reject wealth tax for billionaires",
    "link": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T03:34:46+00:00",
    "desc": "Proposition 40 targeted Californian billionaires with a 5% tax on their total wealth, including assets such as shares as well as income.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8df3/live/53f86970-d7b4-11f1-9092-abeae3cab3b1.jpg"
@@ -371,6 +425,7 @@
    "title": "Qantas to outsource 850 local jobs with most roles moving to India",
    "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T01:55:22+00:00",
    "desc": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/47eb/live/926fac30-dca6-11f1-86c1-89409a3a3bd9.jpg"
@@ -379,6 +434,7 @@
    "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
    "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
    "src": "MarketWatch",
+   "reg": "world",
    "date": "2026-11-10T00:48:00+00:00",
    "desc": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
    "img": "https://images.mktw.net/im-44995532"
@@ -387,6 +443,7 @@
    "title": "I took Vinted to court to get my money back",
    "link": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T00:27:37+00:00",
    "desc": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/de22/live/e53d0e50-c7c3-11f1-bc2e-018d645d8d21.jpg"
@@ -395,22 +452,16 @@
    "title": "The superpower battle over energy – and what it means for your bills",
    "link": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-10T00:08:28+00:00",
    "desc": "A tug-of-war between China and the US could have a big impact on energy costs, but who will win?",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9b1f/live/f53bf9d0-dc57-11f1-b441-2b33b063138f.jpg"
   },
   {
-   "title": "Headteachers say families will struggle after another rise in school dinner prices",
-   "link": "https://www.bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-10T00:00:22+00:00",
-   "desc": "The price of a school dinner in a primary school will have risen from £2.60 to £3.40 since the start of 2026.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ca3/live/100121b0-dc75-11f1-bbe9-83c09cc9b23f.jpg"
-  },
-  {
    "title": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
    "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-09T23:54:21+00:00",
    "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
    "img": ""
@@ -419,6 +470,7 @@
    "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
    "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
    "src": "MarketWatch",
+   "reg": "world",
    "date": "2026-11-09T23:52:00+00:00",
    "desc": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
    "img": "https://images.mktw.net/im-69887372"
@@ -427,6 +479,7 @@
    "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
    "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
    "src": "BBC Business",
+   "reg": "world",
    "date": "2026-11-09T23:51:22+00:00",
    "desc": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg"
@@ -435,6 +488,7 @@
    "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
    "link": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-09T23:31:17+00:00",
    "desc": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
    "img": ""
@@ -443,6 +497,7 @@
    "title": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
    "link": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-09T23:14:38+00:00",
    "desc": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
    "img": ""
@@ -451,6 +506,7 @@
    "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
    "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-09T23:05:53+00:00",
    "desc": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
    "img": ""
@@ -459,6 +515,7 @@
    "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
    "link": "https://www.cnbc.com/2026/11/09/cnbcs-the-china-connection-newsletter-wall-street-dips-in-again.html",
    "src": "CNBC",
+   "reg": "world",
    "date": "2026-11-09T23:00:02+00:00",
    "desc": "Following the latest Trump-Xi summit, China pledged further opening of its financial market to companies from all countries, including the U.S.",
    "img": ""
@@ -467,257 +524,460 @@
    "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
    "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
    "src": "MarketWatch",
+   "reg": "world",
    "date": "2026-11-09T22:49:00+00:00",
    "desc": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
    "img": "https://images.mktw.net/im-29972515"
   },
   {
-   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
-   "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-   "src": "MarketWatch",
-   "date": "2026-11-09T22:49:00+00:00",
-   "desc": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
-   "img": "https://images.mktw.net/im-95193263"
+   "title": "Tõnu Väät: 9 out of 10 packages from Asia clear customs outside Estonia",
+   "link": "https://news.err.ee/1610190652/tonu-vaat-9-out-of-10-packages-from-asia-clear-customs-outside-estonia",
+   "src": "ERR News",
+   "reg": "ee",
+   "date": "2026-11-10T09:20:00+00:00",
+   "desc": "If we want the next logistics hub to be built in Estonia, we must adopt European regulations without adding our own extra requirements, writes Tõnu Väät.",
+   "img": "https://s.err.ee/photo/crop/2026/11/06/3873787h0f67t4.jpg"
   },
   {
-   "title": "Hegseth impeachment articles introduced by Rep. Massie",
-   "link": "https://www.cnbc.com/2026/11/09/pete-hegseth-impeachment-articles-massie.html",
-   "src": "CNBC",
-   "date": "2026-11-09T22:41:12+00:00",
-   "desc": "The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.",
-   "img": ""
+   "title": "Oled Ryanairiga lendamas? Tänasest tuleb arvestada uue olulise muudatusega",
+   "link": "https://pmo.ee/8579547",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:17:00+00:00",
+   "desc": "Kommertslennufirma Ryanair toob alates teisipäevast, 10. novembrist registreeritava pagasi äraandmise sulgemise aja varasemaks. Muudatuse eesmärk on leevendada lennujaamade turvakontrolli ja passikont",
+   "img": "https://f9.pmo.ee/Ctv4GkuaWnMjcW8IUbq_RAUUM60=/480x270/filters:focal(1076x303:3232x2062)/nginx/o/2026/11/03/18016216t1h8402.jpg"
   },
   {
-   "title": "Trump questions midterm election results, revives voting-machine conspiracy",
-   "link": "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html",
-   "src": "CNBC",
-   "date": "2026-11-09T22:40:09+00:00",
-   "desc": "President Trump's questioning of the legitimacy of his loss in the 2020 election culminated with an attack on the U.S. Capitol by a mob of his supporters.",
-   "img": ""
+   "title": "Hambakliinikute kasumit survestavad kulud ja ebakindlus. \"Patsientide nimel tuleb rohkem pingutada\"",
+   "link": "https://www.aripaev.ee/saated/2026/11/10/hambakliinikute-kasumit-survestavad-kulud-ja-ebakindlus",
+   "src": "Äripäev",
+   "reg": "ee",
+   "date": "2026-11-10T09:14:14+00:00",
+   "desc": "Hambaraviettevõtete müügitulu kasv on pidurdunud ja koondkasum vähenenud, sest patsiendid lükkavad ravi edasi ja kliinikud ei saa sisendkulude kasvu täielikult hindadesse panna, rääkis Äripäeva Infopa",
+   "img": "https://static-img.aripaev.ee/?type=preview&uuid=edc2a4a9-d88e-5e9c-b687-dcc628f82d04&width=600&q=85"
   },
   {
-   "title": "3 unexpected reasons the October jobs report was so strong",
-   "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
-   "src": "CNBC",
-   "date": "2026-11-09T22:23:56+00:00",
-   "desc": "October's jobs report blew past economist forecasts. Here are three reasons.",
-   "img": ""
+   "title": "RALF SAUTERI PÖFFI-PÄEVIK ⟩ Üks PÖFFi suurimaid üllatajaid on pärit Eestist",
+   "link": "https://pmo.ee/8580516",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:13:52+00:00",
+   "desc": "Kas pole mitte tore, kui satud PÖFFil samal päeval vaatama kahte pealtnäha väga erinevat filmi, mis omavahel kõnelema hakkavad ja sarnaseks osutuvad? Nõnda eile juhtuski, kui vaatasin ära ühe Saksamaa",
+   "img": "https://f11.pmo.ee/8W_aUDmn1sxiB9XAfGO58VYVRMQ=/480x270/filters:focal(395x6:1663x1072)/nginx/o/2026/11/10/18027211t1h4855.jpg"
   },
   {
-   "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-   "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
-   "src": "MarketWatch",
-   "date": "2026-11-09T21:55:00+00:00",
-   "desc": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
-   "img": "https://images.mktw.net/im-03911341"
+   "title": "USA viis teisest Briti baasist lennukid ära",
+   "link": "https://pmo.ee/8580544",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:11:38+00:00",
+   "desc": "USA viis Iraanist lähtuva ohu tõttu mitu sõjalennukit Ühendkuningriigi Suffolki krahvkonnas asuvast kuninglike õhujõudude (RAF) Mildenhalli baasist ära.",
+   "img": "https://f12.pmo.ee/ZYkdF2Nh_tg6u7sm7P4k9Z-77dc=/480x270/filters:focal(1401x805:5133x3301)/nginx/o/2026/11/10/18027188t1h2a64.jpg"
   },
   {
-   "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-   "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T21:52:28+00:00",
-   "desc": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e4e6/live/9afaf360-dccd-11f1-9b78-45da8622c809.jpg"
+   "title": "Vahtras ütles ohtralt kriitikat pälvinud Terrase Nutri-Score’i plaanile «ei»",
+   "link": "https://pmo.ee/8580563",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:09:37+00:00",
+   "desc": "Liina Vahtrase juhitav majandus- ja kommunikatsiooniministeerium lükkas tagasi regionaal- ja põllumajandusministeeriumi eelnõu, millega soovitakse Maarjamaal kasutusele võtta niinimetatud Nutri-Score’",
+   "img": "https://f7.pmo.ee/XJzjnK8pk_J8ec1UFm_BneVIHkI=/480x270/smart/nginx/o/2026/09/22/17931876t1hc7bc.jpg"
   },
   {
-   "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
-   "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
-   "src": "MarketWatch",
-   "date": "2026-11-09T21:52:00+00:00",
-   "desc": "“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.",
-   "img": "https://images.mktw.net/im-13574872"
+   "title": "Kas ja millal PÖFFi hitid kinolevisse jõuavad?",
+   "link": "https://pmo.ee/8580577",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:06:37+00:00",
+   "desc": "Aeglasemad tärkajad on juba PÖFFi menukamatest piletitest ilma jäänud. Paljusid välkkiirelt väljamüüdud festivalihitte, nagu näiteks filme «Isamaa», «Metsik hobu üheksa» ja «Lilledele värsket vett», v",
+   "img": "https://f11.pmo.ee/W-1-vGdlG2HpiPxSbiirlUaUJec=/480x270/filters:focal(794x238:1148x464)/nginx/o/2026/11/10/18027191t1h8c63.jpg"
   },
   {
-   "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-   "link": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
-   "src": "MarketWatch",
-   "date": "2026-11-09T21:43:00+00:00",
-   "desc": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
-   "img": "https://images.mktw.net/im-27013574"
+   "title": "Tõstmise üliraskekaalu troonile tõusis noor iraaklane",
+   "link": "https://sport.err.ee/1610191441/tostmise-uliraskekaalu-troonile-tousis-noor-iraaklane",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T09:03:00+00:00",
+   "desc": "Tõstmise maailmameistrivõistlustel Hiinas Ningbos krooniti meeste üliraskekaalu võitjaks Iraagi tõstja Ali Ammar (466 kg), kes edestas iraanlast Alireza Yousefit (458 kg) ja armeenlast Varazdat Lalaja",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877915hb259t4.jpg"
   },
   {
-   "title": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
-   "link": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
-   "src": "CNBC",
-   "date": "2026-11-09T21:24:13+00:00",
-   "desc": "Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
-   "img": ""
+   "title": "Pärnu pikendas jokkeriks osutunud lätlasega lepingut hooaja lõpuni",
+   "link": "https://pmo.ee/8580566",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:00:00+00:00",
+   "desc": "BC Pärnu korvpallimeeskond teatas lepingu pikendamisest hooaja lõpuni hiljuti meeskonda toodud lätlasest mängujuhi Renars Birkansiga.",
+   "img": "https://f12.pmo.ee/Ypn0yQQqk8qk4L1_oh8G5o8JjUo=/480x270/filters:focal(1021x257:1871x1015)/nginx/o/2026/10/22/17989531t1h2fc3.webp"
   },
   {
-   "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-   "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-   "src": "MarketWatch",
-   "date": "2026-11-09T21:24:00+00:00",
-   "desc": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
-   "img": "https://images.mktw.net/im-59679463"
+   "title": "Robert De Niro endine elukaaslane suri raske haiguse tõttu",
+   "link": "https://pmo.ee/8580530",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:00:00+00:00",
+   "desc": "Hollywoodi legendi Robert De Niro endine elukaaslane, modell ja näitlejanna Toukie Smith suri 74-aastaselt. Naise surmast teatasid tema ja De Niro ühised lapsed, kaksikud Airyn ja Julian. Smith oli aa",
+   "img": "https://f9.pmo.ee/hqooSdPQVWp6ha2HeP728MN8kqs=/480x270/filters:focal(1393x1829:4902x6146)/nginx/o/2026/11/10/18027166t1hd24c.jpg"
   },
   {
-   "title": "A failed trial for a heart drug casts shadow over rivals developing similar therapies",
-   "link": "https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories",
-   "src": "MarketWatch",
-   "date": "2026-11-09T21:21:00+00:00",
-   "desc": "The full data from the closely watched clinical trial showed that the drug had no cardiovascular benefit even though it reduced Lp(a) levels.",
-   "img": "https://images.mktw.net/im-68814981"
+   "title": "AJALOOLINE INIMKATSE ⟩ Raskelt haigele patsiendile süstiti tehisaru loodud viirust",
+   "link": "https://pmo.ee/8579934",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T09:00:00+00:00",
+   "desc": "Teadlased on astunud meditsiiniajaloos uue ja julge sammu: esimest korda manustati inimkehasse tehisintellekti (AI) disainitud viirus. Eksperimendi eesmärk on võidelda eluohtlike bakteriaalsete infekt",
+   "img": "https://f8.pmo.ee/t99HoFVcCqQegD_JY15ebAO-iNA=/480x270/filters:focal(1011x339:1302x838)/nginx/o/2026/11/09/18026608t1h3dbc.jpg"
   },
   {
-   "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-   "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-   "src": "CNBC",
-   "date": "2026-11-09T21:03:55+00:00",
-   "desc": "The CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.",
-   "img": ""
+   "title": "Pärast valimisi tulevad uued maksumuudatused",
+   "link": "https://www.aripaev.ee/sisuturundus/2026/11/10/parast-valimisi-tulevad-uued-maksumuudatused",
+   "src": "Äripäev",
+   "reg": "ee",
+   "date": "2026-11-10T09:00:00+00:00",
+   "desc": "Arvata, et pärast järgmisi riigikogu valimisi maksumuudatusi ei tule, on erakordselt naiivne, rääkis Äripäeva sisuturundussaates KPMG Balticsi maksuteenuste juht Joel Zernask, kes on KPMG-s töötanud a",
+   "img": "https://static-img.aripaev.ee/?type=preview&uuid=dbd58e88-f2ca-5f95-a0a8-abc240ef8a93&width=600&q=85"
   },
   {
-   "title": "Children’s Place files for bankruptcy protection, seeks buyer",
-   "link": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html",
-   "src": "CNBC",
-   "date": "2026-11-09T20:57:46+00:00",
-   "desc": "The Children's Place has filed for chapter 11 bankruptcy protection and is seeking bids from potential new owners by Dec. 9.",
-   "img": ""
+   "title": "Ester Kuntu: minu elus on kõik suured asjad juhtunud tänu teisele inimesele",
+   "link": "https://kultuur.err.ee/1610191378/ester-kuntu-minu-elus-on-koik-suured-asjad-juhtunud-tanu-teisele-inimesele",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:59:00+00:00",
+   "desc": "Näitleja Ester Kuntu eelistab võtteplatsi teatrilavale, otsib oma rollides vabanemist ning rändab eri reaalsuste vahel. Tema sõnul on võimalik iseennast täielikult tundma õppida vaid läbi teise inimes",
+   "img": "https://s.err.ee/photo/crop/2026/11/09/3877636hcfaft4.jpg"
   },
   {
-   "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
-   "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
-   "src": "CNBC",
-   "date": "2026-11-09T20:29:36+00:00",
-   "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
-   "img": ""
+   "title": "Kihnu kooli vahetusõpilaseks läinud Roosi: kogu kool on nagu üks pere",
+   "link": "https://eeter.err.ee/1610191444/kihnu-kooli-vahetusopilaseks-lainud-roosi-kogu-kool-on-nagu-uks-pere",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:57:00+00:00",
+   "desc": "Rapla Vesiroosi kooli õpilane Rosmary läks vahetusõpilaseks Kihnu kooli. \"Ringvaates\" kiitis ta, et väheste õpilastega koolis on terve kool nagu üks pere.",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877756hf87et4.png"
   },
   {
-   "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
-   "link": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
-   "src": "CNBC",
-   "date": "2026-11-09T19:59:55+00:00",
-   "desc": "A Labor Department proposal would require unemployment claimants to report at least five qualifying work-search activities each week.",
-   "img": ""
+   "title": "International film congress in Tallinn focuses on funding and artificial intelligence",
+   "link": "https://news.err.ee/1610191327/international-film-congress-in-tallinn-focuses-on-funding-and-artificial-intelligence",
+   "src": "ERR News",
+   "reg": "ee",
+   "date": "2026-11-10T08:55:00+00:00",
+   "desc": "The World Congress of Science and Factual Producers is taking place at Kultuurikatel through Thursday. Held in Tallinn to mark the 30th anniversary of the Black Nights Film Festival (PÖFF), the event ",
+   "img": "https://s.err.ee/photo/crop/2025/02/04/2718932hd77ft4.jpg"
   },
   {
-   "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T19:58:01+00:00",
-   "desc": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg"
+   "title": "GLAMUURSED KLÕPSUD ⟩ Agne Vaher nautis uue silmarõõmuga Helsingis luksuslikku peoõhtut",
+   "link": "https://pmo.ee/8580344",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:53:53+00:00",
+   "desc": "Agne Vaher väisas koos uue silmarõõmu Helsingis hotelli Kämp taasavamispidu. Sotsiaalmeedias jagatud kaadrite ja Agne muljete põhjal jagus õhtusse nii pidulikkust, homaari kui ka šampanjat.",
+   "img": "https://f11.pmo.ee/afCXWzvUHqEp9oEoEnqw_AWC2Hw=/480x270/filters:focal(1014x409:1387x821)/nginx/o/2026/01/03/17371295t1hc238.jpg"
   },
   {
-   "title": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
-   "link": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
-   "src": "CNBC",
-   "date": "2026-11-09T19:35:58+00:00",
-   "desc": "Boeing has been working to stabilize production rates of its bestselling 737 Max planes, which are made outside of Seattle.",
-   "img": ""
+   "title": "FBI uurib Nvidia juhi suhet Hiina spiooniga. Trump: Huang ei teadnud midagi",
+   "link": "https://www.aripaev.ee/borsiuudised/2026/11/10/fbi-uurib-nvidia-juhi-suhet-hiina-spiooniga-trump-huang-ei-teadnud-midagi",
+   "src": "Äripäev",
+   "reg": "ee",
+   "date": "2026-11-10T08:50:01+00:00",
+   "desc": "USA presidendi Donald Trumpi sõnul uurib FBI Nvidia juhi Jensen Huangi suhet väidetava Hiina spiooniga, mis vallandas 250 miljardi dollari suuruse börsilanguse ja aktsionäride kohtuhagi.",
+   "img": "https://static-img.aripaev.ee/?type=preview&uuid=d098ca05-c4ae-5b1c-9bd5-190c0e8ab0c3&width=600&q=85"
   },
   {
-   "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
-   "link": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
-   "src": "CNBC",
-   "date": "2026-11-09T19:34:43+00:00",
-   "desc": "Sen. Elizabeth Warren telegraphed her agenda for the Senate banking committee as Congress transfers to Democratic control",
-   "img": ""
+   "title": "TUBLI TÖÖ ⟩ Noor Eesti kokk tõi koju Euroopa kutsevõistluste kulla",
+   "link": "https://pmo.ee/8580410",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:47:00+00:00",
+   "desc": "Kuressaare Ametikooli koka eriala õppija Kirke Kask võitis kuldmedali 2.-6. novembrini Itaalias korraldatud Euroopa Hotelli- ja Turismikoolide Assotsiatsiooni AEHT kutsevõistlustel.",
+   "img": "https://f7.pmo.ee/vvCmC2ZansAqln27OEvcQpnegEg=/480x270/filters:focal(207x8:847x602)/nginx/o/2026/11/10/18027045t1h8564.jpg"
   },
   {
-   "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
-   "link": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
-   "src": "CNBC",
-   "date": "2026-11-09T19:23:57+00:00",
-   "desc": "United Rentals is trading at a below-market forward multiple. Effectively, one can buy superior, market-beating growth at a discounted market multiple.",
-   "img": ""
+   "title": "Lennujaamas avati kohver – see lausa kihas salakaubast",
+   "link": "https://pmo.ee/8580041",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:46:00+00:00",
+   "desc": "Peruus Jorge Chávezi rahvusvahelises lennujaamas märkasid ametnikud rutiinse tollikontrolli käigus pagasis kummalist siblimist. Võib vaid ette kujutada, milliseid veidrusi tolliametnikud inimeste kott",
+   "img": "https://f11.pmo.ee/ApO-695H6UU6vppW8VFeecChxks=/480x270/smart/nginx/o/2026/11/09/18026441t1h645f.webp"
   },
   {
-   "title": "The facial recognition technology stopping shoplifters",
-   "link": "https://www.bbc.co.uk/news/videos/c5x2v2kpwzgvo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T19:00:43+00:00",
-   "desc": "Business correspondent Emma Simpson tries out Sainsbury's facial recognition technology.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/76aa/live/83bb9250-dc6d-11f1-b441-2b33b063138f.jpg"
+   "title": "Venemaale soodsa otsuse langetanud CAS-i kohtunik külastas eelnevalt Moskvat",
+   "link": "https://sport.err.ee/1610191429/venemaale-soodsa-otsuse-langetanud-cas-i-kohtunik-kulastas-eelnevalt-moskvat",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:31:00+00:00",
+   "desc": "Rahvusvahelises spordikohtus Venemaa kasuks otsuse langetanud kogu esimehe ehk itaallasest kohtuniku Giulio Palermo käitumine on tekitanud küsimuse võimalikust huvide konfliktist.",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877891h9206t4.jpg"
   },
   {
-   "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
-   "link": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
-   "src": "CNBC",
-   "date": "2026-11-09T19:00:01+00:00",
-   "desc": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
-   "img": ""
+   "title": "Pharmacists warn vending machines could spell the end of rural drugstores",
+   "link": "https://news.err.ee/1610191282/pharmacists-warn-vending-machines-could-spell-the-end-of-rural-drugstores",
+   "src": "ERR News",
+   "reg": "ee",
+   "date": "2026-11-10T08:31:00+00:00",
+   "desc": "Estonia is considering allowing pharmacy vending machines to provide round-the-clock access to prescription and over-the-counter medications, but pharmacists warn the move could threaten the survival ",
+   "img": "https://s.err.ee/photo/crop/2025/11/21/3096750h0305t4.jpg"
   },
   {
-   "title": "How a civil servant got away with juggling five jobs for so long",
-   "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T18:40:31+00:00",
-   "desc": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg"
+   "title": "Urmas Sisaski tütar: isast tehtud lavastus tekitas tunde, et ta tuli meile külla",
+   "link": "https://eeter.err.ee/1610191300/urmas-sisaski-tutar-isast-tehtud-lavastus-tekitas-tunde-et-ta-tuli-meile-kulla",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:26:00+00:00",
+   "desc": "Sel suvel Jänedal publiku ette jõudnud lavastus Urmas Sisaskist mõjus helilooja lähedastele nii elutruult, et neil tekkis tunne, nagu ta oleks neile ise külla tulnud.",
+   "img": "https://s.err.ee/photo/crop/2020/07/15/797945hffa1t4.jpg"
   },
   {
-   "title": "A massive trade in Nvidia just went off – here are the details",
-   "link": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
-   "src": "CNBC",
-   "date": "2026-11-09T18:37:59+00:00",
-   "desc": "Despite Monday's sell-off, options traders are targeting new highs on Nvidia",
-   "img": ""
+   "title": "Üles laadimata mälukaart muutis Georgia osariigi valimiste seisu vabariiklaste kasuks",
+   "link": "https://pmo.ee/8580484",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:23:11+00:00",
+   "desc": "Sadade seni arvestamata häältega mälukaart tõi ootamatu pöörde USA kongressi esindajatekoja valimistesse Georgia osariigis, kus mitteametlikel andmetel juhib nüüd vabariiklane Gerald Greene 253 hääleg",
+   "img": "https://f10.pmo.ee/1GvVIT8OlAcofQORoCxVZ8RzY9s=/480x270/filters:focal(846x568:2341x1641)/nginx/o/2026/11/10/18027141t1h43f5.jpg"
   },
   {
-   "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
-   "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
-   "src": "CNBC",
-   "date": "2026-11-09T18:14:47+00:00",
-   "desc": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
-   "img": ""
+   "title": "Saks: Abu Dhabi kõnelustelt pole suuri tulemusi oodata",
+   "link": "https://www.err.ee/1610191421/saks-abu-dhabi-konelustelt-pole-suuri-tulemusi-oodata",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:20:02+00:00",
+   "desc": "Araabia Ühendemiraatides Abu Dhabis algavad USA vahendatud Ukraina ja Venemaa esindajate kõnelused.",
+   "img": "https://s.err.ee/photo/crop/2014/12/19/341329h64e1t4.png"
   },
   {
-   "title": "Civil servant who secretly held five jobs found guilty of fraud",
-   "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T17:17:16+00:00",
-   "desc": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg"
+   "title": "SALASTATUD MILJARDIEELARVE ⟩ Vaata, palju «taastab» ministeerium loodust riigi, palju euroraha eest",
+   "link": "https://pmo.ee/8580327",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:18:45+00:00",
+   "desc": "Kliimaministeerium salastas eelarve tööversiooni 3,6 miljardit euro kulutamise plaanidest «looduse taastamiseks», saates pärast mitmenädalast kauplemist Postimehele siiski numbrid, kui palju kuni aast",
+   "img": "https://f12.pmo.ee/mp2VH9GkAviND-VXNFBfvU69tH8=/480x270/smart/nginx/o/2026/11/10/18027150t1h100c.jpg"
   },
   {
-   "title": "Poundland unable to buy new stock as fears over collapse grow",
-   "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T16:46:40+00:00",
-   "desc": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4c59/live/3c72aa60-dc53-11f1-b8a2-9782924402f8.jpg"
+   "title": "WSJ ⟩ Demokraatide soov suurfirmasid uurida purskus nagu paisu tagant",
+   "link": "https://pmo.ee/8580521",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:14:44+00:00",
+   "desc": "Kuude kaupa on firmad vaikselt valmistunud võimaluseks, et demokraadid kongressi oma kontrolli alla saavad ja uurimiste tulva vallandavad. Nüüd tormatakse tulistjalu.",
+   "img": "https://f12.pmo.ee/kNpgU4z51kwsYnp8_0upDYrtlUw=/480x270/smart/nginx/o/2026/11/10/18027132t1h95c6.jpg"
   },
   {
-   "title": "Action on energy costs is my overriding aim, says Fahnbulleh",
-   "link": "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T16:01:19+00:00",
-   "desc": "The energy secretary says reducing bills is key to maintaining public support for climate action.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fead/live/0dafb010-dc53-11f1-a869-656dc96bd12d.jpg"
+   "title": "USA demokraatide edu osariikide valimistel võib muuta presidendi valimise korda",
+   "link": "https://www.err.ee/1610191390/usa-demokraatide-edu-osariikide-valimistel-voib-muuta-presidendi-valimise-korda",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:14:00+00:00",
+   "desc": "USA demokraatide suur võit eelmisel nädalal peetud vahevalimistel võib lisaks riigi poliitilise jõuvahekorra muutmisele mõjutada ka seda, kuidas ameeriklased tulevikus presidenti valivad, kirjutab uud",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877861h9973t4.jpg"
   },
   {
-   "title": "These states are offering extra ACA premium subsidies in 2027",
-   "link": "https://www.cnbc.com/2026/11/09/aca-state-subsidies-2027.html",
-   "src": "CNBC",
-   "date": "2026-11-09T13:00:01+00:00",
-   "desc": "Roughly a dozen states are offering some premium assistance for Obamacare enrollees, following the lapse of enhanced federal subsidies at the end of 2025.",
-   "img": ""
+   "title": "Investor räägib, mis saab Nvidiast. \"Kui kallist asja odavalt pakutakse, siis eks ma ikka ostan\"",
+   "link": "https://www.aripaev.ee/saated/2026/11/10/investor-raagib-mis-saab-nvidiast-kui-kallist-asja-odavalt-pakutakse-siis-eks-ma-ikka-ostan",
+   "src": "Äripäev",
+   "reg": "ee",
+   "date": "2026-11-10T08:06:39+00:00",
+   "desc": "Nvidia aktsionär Priit Kallas ostis ettevõtte aktsiaid juurde, sest peab hinnalangust ostukohaks.",
+   "img": "https://static-img.aripaev.ee/?type=preview&uuid=8a91d6bf-6bf1-5677-9929-56e352768657&width=600&q=85"
   },
   {
-   "title": "Government's EV targets expected to be reduced this week",
-   "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T12:06:22+00:00",
-   "desc": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b401/live/fd7836e0-dbdf-11f1-b348-cb75a5659779.jpg"
+   "title": "MAJANDUSPROGNOOS ⟩ Swedbank: Eesti majandus jätkab mõõdukat kasvu",
+   "link": "https://pmo.ee/8580511",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:05:00+00:00",
+   "desc": "Swedbanki ökonomistid prognoosivad, et Eesti majandus kasvab 2027. ja 2028. aastal mõõdukalt, ehkki järgmisel aastal kasv mõnevõrra aeglustub. Kuigi inflatsioon on praegu kiirenemas, peaks see järgmis",
+   "img": "https://f9.pmo.ee/3QH4E87_fO0acqhKXLgg8rNfgW8=/480x270/filters:focal(2505x2130:3166x2731)/nginx/o/2026/07/17/17788742t1h2303.jpg"
   },
   {
-   "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-   "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T07:10:11+00:00",
-   "desc": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png"
+   "title": "Tehisaru kulutab väikekeeltes suheldes kordades rohkem energiat",
+   "link": "https://novaator.err.ee/1610191417/tehisaru-kulutab-vaikekeeltes-suheldes-kordades-rohkem-energiat",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:04:00+00:00",
+   "desc": "Hiljutisest uuringust selgub, et tehisiarumudelid võivad inglise keelest erineva teksti loomiseks kulutada sõltuvalt keelest 1,4 kuni 180 korda rohkem energiat, vahendab R2 tehnikakommentaaris Kristja",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877849h2078t4.jpg"
   },
   {
-   "title": "Doing these things now will help you save money at Christmas",
-   "link": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
-   "src": "BBC Business",
-   "date": "2026-11-09T00:09:14+00:00",
-   "desc": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/903c/live/8d645510-d9ef-11f1-bb10-cdca6001fbcf.jpg"
+   "title": "Kolmapäeval kell 11 saates \"Otse uudistemajast\" Rain Epler",
+   "link": "https://www.err.ee/1610191414/kolmapaeval-kell-11-saates-otse-uudistemajast-rain-epler",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:03:00+00:00",
+   "desc": "ERR-i veebisaate \"Otse uudistemajast\" külaline on sel kolmapäeval riigikogu liige Rain Epler EKRE-st, kellega saatejuht Joosep Värk räägib EKRE riigikogu valimiste kampaaniast, erakondade toetusest, i",
+   "img": "https://s.err.ee/photo/crop/2024/06/12/2435123hb009t4.jpg"
+  },
+  {
+   "title": "Proviisorid: apteegiautomaadid võivad hoogustada maa-apteekide sulgemist",
+   "link": "https://www.err.ee/1610191406/proviisorid-apteegiautomaadid-voivad-hoogustada-maa-apteekide-sulgemist",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T08:00:01+00:00",
+   "desc": "Valitsus kiitis eelmisel nädalal heaks ravimiseaduse muutmise eelnõu, mis muuhulgas lubab apteekidel paigaldada ravimite väljastamiseks spetsiaalseid automaate.",
+   "img": "https://s.err.ee/photo/crop/2014/12/19/341329h64e1t4.png"
+  },
+  {
+   "title": "FIS andis neutraalse staatuse olümpiavõitja Spitsovile, kuid mitte Bolšunovile",
+   "link": "https://pmo.ee/8580442",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:00:00+00:00",
+   "desc": "Rahvusvaheline suusaliit (FIS) teatas esmaspäeval uutest Venemaa sportlastest, kellele anti neutraalne staatus. Neist nimekaim on 2022. aastal Pekingis murdmaasuusatamises olümpiavõitjaks tulnud Denis",
+   "img": "https://f8.pmo.ee/yx0ITflwx2F7ACaqPlAqbkVBSwI=/480x270/filters:focal(874x44:3034x1916)/nginx/o/2026/04/05/17546614t1h528a.jpg"
+  },
+  {
+   "title": "TABATUD ⟩ Soomes mõrva eest tagaotsitav 24-aastane Eesti noormees nabiti kinni",
+   "link": "https://pmo.ee/8568589",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T08:00:00+00:00",
+   "desc": "Soome võimude poolt Euroopa tagaotsitumate kurjategijate nimekirja lisatud 24-aastane Eesti kodanik Gert Tarmu on kinni peetud. Teda kahtlustatakse 23-aastase mehe mõrvas.",
+   "img": "https://f12.pmo.ee/TtV7bJaTW7A8wdMBz36-M1d8W24=/480x270/filters:focal(253x262:882x495)/nginx/o/2026/10/21/17985952t1h0949.png"
+  },
+  {
+   "title": "Marek Tamm: mis oleks, kui ülikoole poleks?",
+   "link": "https://www.err.ee/1610191357/marek-tamm-mis-oleks-kui-ulikoole-poleks",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:59:00+00:00",
+   "desc": "Ülikooli pikaajaline mõju võib avalduda inimeste mõtlemisviisis, ühiskonna otsustuskultuuris või oskuses uusi probleeme ära tunda. Sellest ei saa alati teha atraktiivset edulugu, kuid see ei muuda mõj",
+   "img": "https://s.err.ee/photo/crop/2026/09/30/3823963hfe93t4.jpg"
+  },
+  {
+   "title": "Imre Kaas: When the government charges you for being stupid",
+   "link": "https://news.err.ee/1610190619/imre-kaas-when-the-government-charges-you-for-being-stupid",
+   "src": "ERR News",
+   "reg": "ee",
+   "date": "2026-11-10T07:59:00+00:00",
+   "desc": "Although citizens and the state are part of the same whole, many people are left with a bitter taste in their mouths after their everyday dealings with government, Imre Kaas argues in his daily commen",
+   "img": "https://s.err.ee/photo/crop/2025/08/13/2972244h994at4.jpg"
+  },
+  {
+   "title": "4,2 miljonit kilo kartuleid prügimäele - miks ei kõlba Soomes tulekahjus kahjustatud mugulad isegi biojäätmeteks?",
+   "link": "https://pmo.ee/8580490",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:58:37+00:00",
+   "desc": "Põhja-Soomes Tyrnävä vallas toimunud hiigeltulekahjus hävis ligikaudu 4,2 miljonit kilogrammi seemnekartulit. Kuigi kartul on looduslik ja biolagunev, ei saa hävinud saaki tõenäoliselt isegi biojäätme",
+   "img": "https://f9.pmo.ee/R_ZuO2hDxj17xxz28a_7CWMfKig=/480x270/filters:focal(229x330:1663x1087)/nginx/o/2025/04/02/16751273t1he3f7.jpg"
+  },
+  {
+   "title": "Ametiühingud peavad Eesti Energiaga kõnelusi koondamiste üle",
+   "link": "https://www.err.ee/1610191394/ametiuhingud-peavad-eesti-energiaga-konelusi-koondamiste-ule",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:55:01+00:00",
+   "desc": "Eesti Energia ettevõtted alustavad konsultatsioone ametiühingutega, teemaks on töötajate koondamine.",
+   "img": "https://s.err.ee/photo/crop/2014/12/19/341329h64e1t4.png"
+  },
+  {
+   "title": "Sajuhooge tuleb peamiselt Lääne-Eesti saartel",
+   "link": "https://www.err.ee/1610191397/sajuhooge-tuleb-peamiselt-laane-eesti-saartel",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:55:01+00:00",
+   "desc": "Ilmast räägib sünoptik Silve Grabbi-Kaiv.",
+   "img": "https://s.err.ee/photo/crop/2014/12/19/341329h64e1t4.png"
+  },
+  {
+   "title": "Vahtras jättis Nutri-Score'i toidumärgistuse eelnõu kooskõlastamata",
+   "link": "https://www.err.ee/1610191330/vahtras-jattis-nutri-score-i-toidumargistuse-eelnou-kooskolastamata",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:55:00+00:00",
+   "desc": "Majandusminister Liina Vahtras jättis kooskõlastamata Nutri-Score'i toidumärgistamise kasutuselevõtmist puudutava määruse eelnõu ning põhjendas seda vajadusega laiemalt analüüsida alternatiive ja toid",
+   "img": "https://s.err.ee/photo/crop/2026/07/13/3701293haee5t4.jpg"
+  },
+  {
+   "title": "OTSEPILT ⟩ Kaupmeeste liit arutab konverentsil, kuidas jõuaks majanduskasv toidulauale",
+   "link": "https://pmo.ee/8580504",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:54:31+00:00",
+   "desc": "Eesti Kaupmeeste liidu konverentsil «Paberil rikas, poeletil vaene. Kuidas majanduskasv jõuaks toidulauale?» arutavad majandusanalüütikud, kaubanduse- ja põllumajanduse esindajad ning erakondade esime",
+   "img": "https://f11.pmo.ee/OjzB-Yl60Ari8zFs8sxSd_IeN1A=/480x270/filters:focal(938x668:1888x1904)/nginx/o/2026/11/10/18027121t1h01fb.jpg"
+  },
+  {
+   "title": "Otse kell 13: selgub Eesti muinsuskaitsepoliitika uus visioon",
+   "link": "https://www.err.ee/1610191387/otse-kell-13-selgub-eesti-muinsuskaitsepoliitika-uus-visioon",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:54:00+00:00",
+   "desc": "Kultuuriministrit nõustav muinsuskaitse nõukogu esitleb teisipäeval Eesti muinsuskaitsepoliitika visiooni. Kell 13 algavat esitlust näeb otsepildis ERR-i portaalis.",
+   "img": "https://s.err.ee/photo/crop/2022/03/03/1381163h73a4t4.jpg"
+  },
+  {
+   "title": "Accountants go on strike over new labor taxes declaration system",
+   "link": "https://news.err.ee/1610191384/accountants-go-on-strike-over-new-labor-taxes-declaration-system",
+   "src": "ERR News",
+   "reg": "ee",
+   "date": "2026-11-10T07:54:00+00:00",
+   "desc": "A warning strike by Estonian accountants on November 10–11 aims to draw public attention to the failure of the new system for submitting employment tax declarations.",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877843h353ft4.jpg"
+  },
+  {
+   "title": "RAINER SAKS ⟩ Kas Venemaa läheb nendele kõnelustele õndsas teadmatuses?",
+   "link": "https://pmo.ee/8580477",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:53:24+00:00",
+   "desc": "USA presidendi eriesindaja Kushneri teatel kohtutakse enne kolmepoolse läbirääkimiste vooru algust Euroopa esindajate ning Ukraina delegatsiooniga. Kushner rõhutas, et USA president soovib sõjategevus",
+   "img": "https://f9.pmo.ee/gV7JFcQYv8GJL03UFB4Q0gAeDqM=/480x270/filters:focal(1305x1192:1828x1718)/nginx/o/2023/04/30/15289812t1h1515.jpg"
+  },
+  {
+   "title": "VAATA OTSE ⟩ Kuhu tüürib Eesti majandus?",
+   "link": "https://pmo.ee/8578129",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:45:00+00:00",
+   "desc": "Swedbanki ökonomistid Tõnu Mertsina ja Liis Elmik tutvustavad panga värsket sügist majandusprognoosi.",
+   "img": "https://f12.pmo.ee/kdtAjVdfNxp4jw-yRQQGJDNnq64=/480x270/smart/nginx/o/2026/11/05/18019536t1h5027.jpg"
+  },
+  {
+   "title": "Otse kell 12: Raudsepp ja Terik Tallinna tuleva aasta eelarvest",
+   "link": "https://www.err.ee/1610191369/otse-kell-12-raudsepp-ja-terik-tallinna-tuleva-aasta-eelarvest",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:39:00+00:00",
+   "desc": "Tallinna linnavalitsuse pressikonverentsil osalevad täna linnapea Peeter Raudsepp ja abilinnapea Tiit Terik, kes räägivad linna 2027. aasta eelarvest. Kell 12 algavat pressikonverentsi näeb otsepildis",
+   "img": "https://s.err.ee/photo/crop/2025/12/10/3120922h228et4.jpg"
+  },
+  {
+   "title": "Elektri börsihind sööstab teisipäeval üle 300 euro",
+   "link": "https://pmo.ee/8580497",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:38:00+00:00",
+   "desc": "Elektribörsi Nord Pool Eesti hinnapiirkonnas kerkib elektri keskmine hind teisipäeval esmaspäevaga võrreldes 51,7 protsenti, ulatudes 305,26 euroni megavatt-tunni kohta.",
+   "img": "https://f9.pmo.ee/L7cB8cm9KGjGVcf5TE0FY4s1VzY=/480x270/filters:focal(1750x774:4060x2888)/nginx/o/2024/03/11/15939940t1h804c.jpg"
+  },
+  {
+   "title": "Tasuta gripivaktsiini saajate ring laienes: vaata, kas sul on õigus riigi kulul vaktsineerida",
+   "link": "https://pmo.ee/8580470",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:35:00+00:00",
+   "desc": "Sellest nädalast saavad üle Eesti gripi vastu vaktsineerida kõik riskirühma kuuluvad inimesed. Tänavu kehtib aga oluline uuendus, mis annab esmakordselt võimaluse kaitsesüst tasuta kätte saada ka suur",
+   "img": "https://f7.pmo.ee/D2Cl8SIUHZNRuipxBd6IC9dQsSw=/480x270/filters:focal(2800x1613:3673x2476)/nginx/o/2026/11/10/18027090t1h5f29.jpg"
+  },
+  {
+   "title": "Prantsuse judotäht Teddy Riner pürgib presidendiks",
+   "link": "https://sport.err.ee/1610191354/prantsuse-judotaht-teddy-riner-purgib-presidendiks",
+   "src": "ERR",
+   "reg": "ee",
+   "date": "2026-11-10T07:32:00+00:00",
+   "desc": "Prantsusmaa judolegend Teddy Riner teatas esmaspäeval, et kandideerib järgmise aasta kevadel riigi presidendiks. Oma pöördumises kirjeldas ta end inimesena, kes ei aseta end parem- ega vasakpoolsete l",
+   "img": "https://s.err.ee/photo/crop/2026/11/10/3877831h149at4.jpg"
+  },
+  {
+   "title": "ŠOKEERIV KUULAJAKIRI ⟩ Politseiniku telefonis olnud surnukehafotode teema jõudis sisekontrolli. «See ei ole mitte mingil viisil aktsepteeritav.»",
+   "link": "https://pmo.ee/8580283",
+   "src": "Postimees",
+   "reg": "ee",
+   "date": "2026-11-10T07:30:00+00:00",
+   "desc": "«Šaakalite» podcastis ette loetud kuulajakiri, milles naine kirjeldas surnukehafotot näidanud väidetavat politseinikku, tõi kaasa politsei sisekontrollibüroo sekkumise. Politsei kinnitab, et asjaosali",
+   "img": "https://f11.pmo.ee/4MF0FwmOTaM6u5ar8qeMrl4AvnU=/480x270/filters:focal(1281x257:1381x751)/nginx/o/2026/11/09/18026914t1h7c3e.png"
   }
  ],
  "failed": []

@@ -13,11 +13,16 @@ from email.utils import parsedate_to_datetime
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
+# (nimi, url, piirkond: "world" = maailm ja turud, "ee" = Eesti)
 FEEDS = [
-    ("CNBC", "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
-    ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
-    ("Yahoo Finance", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5EIXIC,%5EDJI,NVDA,AAPL,MSFT,AMZN,TSLA&region=US&lang=en-US"),
-    ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("CNBC", "https://www.cnbc.com/id/100003114/device/rss/rss.html", "world"),
+    ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories", "world"),
+    ("Yahoo Finance", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5EIXIC,%5EDJI,NVDA,AAPL,MSFT,AMZN,TSLA&region=US&lang=en-US", "world"),
+    ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml", "world"),
+    ("ERR", "https://www.err.ee/rss", "ee"),
+    ("ERR News", "https://news.err.ee/rss", "ee"),
+    ("Postimees", "https://www.postimees.ee/rss", "ee"),
+    ("Äripäev", "https://www.aripaev.ee/rss", "ee"),
 ]
 
 # (nimi, Yahoo sümbol, kas indeks, komakohti)
@@ -69,7 +74,7 @@ def big(url):
 
 
 def fetch_feed(feed):
-    name, url = feed
+    name, url, reg = feed
     root = ET.fromstring(get(url))
     out = []
     for it in root.iter("item"):
@@ -80,6 +85,7 @@ def fetch_feed(feed):
             "title": title,
             "link": (it.findtext("link") or "#").strip(),
             "src": name,
+            "reg": reg,
             "date": iso_date(it.findtext("pubDate")),
             "desc": clean(it.findtext("description"))[:200],
             "img": find_image(it),
@@ -142,14 +148,14 @@ def main():
     data = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "quotes": quotes,
-        "news": unique[:80],
+        "news": [n for reg in ("world", "ee") for n in [x for x in unique if x["reg"] == reg][:50]],
         "failed": failed,
     }
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     ok = sum(1 for q in quotes if q.get("price") is not None)
-    print(f"Valmis: {len(data['news'])} uudist, {ok}/{len(quotes)} hinda -> {path}")
+    print(f"Valmis: {len(data['news'])} uudist ({sum(1 for n in data['news'] if n['reg'] == 'ee')} Eesti), {ok}/{len(quotes)} hinda -> {path}")
 
 
 if __name__ == "__main__":
