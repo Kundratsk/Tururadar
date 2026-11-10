@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tururadar – uudised ja aktsiaturg</title>
+<style>
+:root{--bg:#eef1f4;--card:#fff;--ink:#14202b;--mute:#5d6b78;--line:#d9dfe5;--up:#0e8f6b;--down:#c8382f;--flat:#7a8794;--acc:#2f5bea}
+@media (prefers-color-scheme:dark){:root{--bg:#0f161d;--card:#18222c;--ink:#e6ecf2;--mute:#93a1ae;--line:#283542;--up:#3ccf9f;--down:#ff7b72;--flat:#8b98a5;--acc:#7c9bff}}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:20px 16px 48px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:end;justify-content:space-between;margin-bottom:18px}
+h1{font-size:1.7rem;margin:0;letter-spacing:-.02em}
+.sub{color:var(--mute);font-size:.85rem}
+button{font:inherit;background:var(--acc);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+button:focus-visible,a:focus-visible,.chip:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+h2{font-size:1rem;margin:0 0 10px}
+.mood{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+@media(max-width:640px){.mood{grid-template-columns:1fr}}
+.big{font-size:2.2rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.bar{height:10px;border-radius:5px;background:linear-gradient(90deg,var(--down),var(--flat),var(--up));position:relative;margin:12px 0 6px}
+.bar i{position:absolute;top:-4px;width:4px;height:18px;border-radius:2px;background:var(--ink);transform:translateX(-2px);transition:left .6s}
+.scale{display:flex;justify-content:space-between;color:var(--mute);font-size:.75rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:16px}
+.tick{padding:12px}
+.tick b{display:block;font-size:.8rem;color:var(--mute);font-weight:500}
+.tick span{display:block;font-size:1.15rem;font-weight:600;font-variant-numeric:tabular-nums}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--flat)}
+.topics{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 12px;font-size:.85rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip em{font-style:normal;color:var(--mute);margin-left:4px}
+.chip[aria-pressed=true] em{color:inherit;opacity:.7}
+#explain{border-left:3px solid var(--acc);padding:6px 12px;margin:0 0 14px;color:var(--mute);font-size:.9rem;display:none}
+ul{list-style:none;margin:0;padding:0}
+.news{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.news li{position:relative;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--bg)}
+.news li.empty{display:block;grid-column:1/-1;border:0;background:none}
+.thumb{position:relative;aspect-ratio:16/9;background:var(--line);display:grid;place-items:center;color:var(--mute);font-weight:600;font-size:.9rem}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.body{padding:12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.dir{position:absolute;right:8px;top:8px;z-index:1;min-width:26px;height:26px;padding:0 8px;border-radius:13px;display:grid;place-items:center;font-size:.8rem;font-weight:700;color:#fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.dir.up{background:var(--up);color:#fff}.dir.down{background:var(--down);color:#fff}.dir.flat{background:var(--flat);color:#fff}
+.news a{color:var(--ink);text-decoration:none;font-weight:600;line-height:1.35;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.news a::after{content:"";position:absolute;inset:0}
+.news li:hover a{text-decoration:underline}
+.meta{font-size:.78rem;color:var(--mute);margin-top:2px}
+.tag{display:inline-block;border:1px solid var(--line);border-radius:4px;padding:0 6px;margin-right:4px;font-size:.72rem;color:var(--mute)}
+.err{color:var(--down);font-size:.85rem}
+footer{margin-top:22px;color:var(--mute);font-size:.78rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Tururadar</h1>
+    <div class="sub" id="upd">Laen andmeid…</div>
+  </div>
+  <button id="refresh" type="button">Värskenda</button>
+</header>
+
+<section class="mood">
+  <div class="card">
+    <h2>Uudiste meeleolu</h2>
+    <div class="big" id="moodNum">–</div>
+    <div class="bar"><i id="moodPin" style="left:50%"></i></div>
+    <div class="scale"><span>Karune</span><span>Neutraalne</span><span>Positiivne</span></div>
+    <div class="meta" id="moodTxt"></div>
+  </div>
+  <div class="card">
+    <h2>Turgude tegelik liikumine täna</h2>
+    <div class="big" id="realNum">–</div>
+    <div class="meta" id="realTxt">Indeksite keskmine muutus eelmise sulgemisega võrreldes.</div>
+  </div>
+</section>
+
+<section class="grid" id="ticks" aria-label="Turuandmed"></section>
+
+<section class="card">
+  <h2>Teemad, mis turgu täna liigutavad</h2>
+  <div class="topics" id="topics"></div>
+  <p id="explain"></p>
+  <ul class="news" id="news"></ul>
+  <div class="err" id="err"></div>
+</section>
+
+<footer>
+  Andmed: Yahoo Finance, CoinGecko, Frankfurter, CNBC, MarketWatch, BBC (kogutud serveris, fail data.json). Meeleolu arvutatakse pealkirjade märksõnade järgi – see on lihtne hinnang, mitte investeerimisnõu.
+</footer>
+</div>
+
+<script>
+// ---------- SEADED (muuda vabalt) ----------
+const REFRESH_MS = 5 * 60 * 1000;
+const BULL = ["surge","rally","rallies","rise","rises","gain","gains","jump","jumps","record high","beat","beats","upgrade","rate cut","cuts rates","soar","soars","boost","optimism","growth","strong","rebound","recover","ceasefire","deal","stimulus"];
+const BEAR = ["fall","falls","drop","drops","plunge","plunges","slump","tumble","selloff","sell-off","fear","fears","recession","miss","misses","downgrade","rate hike","raises rates","inflation","tariff","tariffs","war","layoffs","crash","warning","weak","concern","concerns","slide","slides","sanction","sanctions","default","shutdown"];
+
+const TOPICS = [
+ {id:"rates",label:"Intressid ja keskpangad",keys:["fed","ecb","powell","lagarde","interest rate","rate cut","rate hike","treasury yield","yields","central bank"],
+  info:"Kõrgemad intressid teevad laenu kallimaks ja suruvad alla eriti kasvuaktsiaid ja tehnoloogiat. Intressilangetus toetab tavaliselt aktsiaturgu."},
+ {id:"infl",label:"Inflatsioon",keys:["inflation","cpi","pce","consumer prices"],
+  info:"Oodatust kõrgem inflatsioon tähendab, et keskpank hoiab intressid kõrgena – see on aktsiatele halb. Oodatust madalam inflatsioon on tavaliselt positiivne."},
+ {id:"jobs",label:"Tööturg",keys:["jobs","payrolls","unemployment","layoffs","jobless"],
+  info:"Tugev tööturg toetab tarbimist, kuid võib hoida intresse kõrgel. Järsk töötuse tõus tekitab retsessioonihirmu."},
+ {id:"oil",label:"Nafta ja energia",keys:["oil","crude","opec","natural gas","brent","energy"],
+  info:"Naftahinna tõus tõstab kulusid ja inflatsiooni (halb enamikule sektoritele), aga aitab energiafirmasid. Langus toimib vastupidi."},
+ {id:"tech",label:"Tehnoloogia ja AI",keys:["ai","nvidia","chip","chips","semiconductor","apple","microsoft","google","alphabet","meta","tesla","amazon"],
+  info:"Suurtehnoloogia moodustab suure osa S&P 500 ja Nasdaqi väärtusest, seega nende tulemused ja AI-ootused liigutavad terveid indekseid."},
+ {id:"earn",label:"Kvartalitulemused",keys:["earnings","profit","revenue","guidance","quarterly","forecast"],
+  info:"Aktsia liigub tavaliselt vastavalt sellele, kas tulemused ja prognoos ületasid ootusi – mitte tulemuste enda suurusele."},
+ {id:"geo",label:"Geopoliitika ja kaubandus",keys:["tariff","tariffs","war","sanction","sanctions","china","trade","ukraine","russia","israel","iran","election"],
+  info:"Tollid, sõjad ja sanktsioonid tekitavad ebakindlust: investorid müüvad riskivarasid ning ostavad kulda, võlakirju ja dollarit."},
+ {id:"crypto",label:"Krüpto",keys:["bitcoin","crypto","ethereum","coinbase"],
+  info:"Krüpto liigub sageli koos riskivaradega (nt Nasdaq). Suured kõikumised mõjutavad krüptoga seotud aktsiaid nagu Coinbase."},
+ {id:"banks",label:"Pangandus",keys:["bank","banks","jpmorgan","goldman","credit","lending"],
+  info:"Pankade tulemused näitavad majanduse tervist. Krediidiprobleemid või pangandushirm võivad kogu turu kiiresti alla tõmmata."}
+];
+
+// ---------- ABIFUNKTSIOONID ----------
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rx = k => new RegExp("\\b" + k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&") + "\\b", "i");
+const BULL_RX = BULL.map(rx), BEAR_RX = BEAR.map(rx);
+TOPICS.forEach(t => t.rx = t.keys.map(rx));
+let active = null, items = [];
+
+function parseDate(s) {
+  if (!s) return Date.now();
+  const d = /^\d{4}-\d\d-\d\d \d/.test(s) ? new Date(s.replace(" ", "T") + "Z") : new Date(s);
+  return isNaN(d) ? Date.now() : d.getTime();
+}
+function ago(d) {
+  const m = Math.round((Date.now() - d) / 60000);
+  if (m < 1) return "just nüüd";
+  if (m < 60) return m + " min tagasi";
+  if (m < 1440) return Math.round(m / 60) + " h tagasi";
+  return Math.round(m / 1440) + " p tagasi";
+}
+const fmt = (n, d=2) => n.toLocaleString("et-EE", {minimumFractionDigits:d, maximumFractionDigits:d});
+const cls = n => n > 0.05 ? "up" : n < -0.05 ? "down" : "flat";
+
+// ---------- TURUANDMED ----------
+async function loadData() {
+  try {
+    const r = await fetch("data.json?t=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const d = await r.json();
+    renderMarkets(d.quotes || []);
+    buildItems(d.news || []);
+    $("err").textContent = (d.failed && d.failed.length) ? "Serveris ei õnnestunud laadida: " + d.failed.join(", ") : "";
+    $("upd").textContent = "Andmed uuendatud " + new Date(d.updated).toLocaleString("et-EE", {day:"numeric", month:"numeric", hour:"2-digit", minute:"2-digit"});
+  } catch (e) {
+    console.warn(e);
+    $("upd").textContent = "Andmeid ei leitud";
+    $("err").textContent = "Faili data.json ei õnnestunud laadida. Käivita fetch_data.py, et see luua.";
+  }
+}
+function renderMarkets(qs) {
+  let html = "", idx = [];
+  qs.forEach(q => {
+    if (q.price == null) { html += `<div class="card tick"><b>${esc(q.name)}</b><span class="flat">–</span></div>`; return; }
+    if (q.index && q.pct != null) idx.push(q.pct);
+    const ch = q.pct == null ? "" : `<span class="${cls(q.pct)}">${q.pct>0?"+":""}${fmt(q.pct)}%</span>`;
+    html += `<div class="card tick"><b>${esc(q.name)}</b><span>${q.prefix||""}${fmt(q.price, q.digits ?? 2)}</span>${ch}</div>`;
+  });
+  $("ticks").innerHTML = html;
+  if (idx.length) {
+    const avg = idx.reduce((a,b)=>a+b,0) / idx.length;
+    $("realNum").innerHTML = `<span class="${cls(avg)}">${avg>0?"+":""}${fmt(avg)}%</span>`;
+  } else $("realNum").textContent = "–";
+}
+function buildItems(news) {
+  items = news.map(it => {
+    const text = it.title + " " + (it.desc || "");
+    const bull = BULL_RX.filter(r => r.test(it.title)).length, bear = BEAR_RX.filter(r => r.test(it.title)).length;
+    return {title:it.title, link:it.link, src:it.src, img:it.img || "", date:parseDate(it.date), score:bull-bear,
+      topics:TOPICS.filter(t => t.rx.some(r => r.test(text))).map(t => t.id)};
+  }).sort((a,b) => b.date - a.date).slice(0, 80);
+  renderMood(); renderTopics(); renderNews();
+}
+function renderMood() {
+  let b = 0, r = 0;
+  items.forEach(i => { if (i.score > 0) b++; else if (i.score < 0) r++; });
+  const mood = Math.round(100 * (b - r) / (b + r + 1));
+  const el = $("moodNum"); el.textContent = (mood > 0 ? "+" : "") + mood; el.className = "big " + cls(mood / 20);
+  $("moodPin").style.left = (50 + mood / 2) + "%";
+  $("moodTxt").textContent = `${b} positiivset, ${r} negatiivset ja ${items.length - b - r} neutraalset pealkirja.`;
+}
+function renderTopics() {
+  $("topics").innerHTML = TOPICS.map(t => {
+    const n = items.filter(i => i.topics.includes(t.id)).length;
+    return n ? `<button class="chip" type="button" data-id="${t.id}" aria-pressed="${active===t.id}">${esc(t.label)}<em>${n}</em></button>` : "";
+  }).join("");
+  document.querySelectorAll(".chip").forEach(c => c.onclick = () => {
+    active = active === c.dataset.id ? null : c.dataset.id; renderTopics(); renderNews();
+  });
+  const ex = $("explain"), t = TOPICS.find(x => x.id === active);
+  ex.style.display = t ? "block" : "none"; if (t) ex.textContent = t.info;
+}
+function renderNews() {
+  const list = active ? items.filter(i => i.topics.includes(active)) : items;
+  $("news").innerHTML = list.length ? list.slice(0, 36).map(i => {
+    const d = i.score > 0 ? ["up","▲"] : i.score < 0 ? ["down","▼"] : ["flat","•"];
+    const tags = i.topics.slice(0, 2).map(id => `<span class="tag">${esc(TOPICS.find(t => t.id === id).label)}</span>`).join("");
+    const img = i.img ? `<img src="${esc(i.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+    return `<li><div class="thumb"><span>${esc(i.src)}</span>${img}<div class="dir ${d[0]}" title="Meeleolu hinnang">${d[1]}</div></div>
+      <div class="body"><div class="meta">${esc(i.src)} · ${ago(i.date)}</div>
+      <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+      <div class="meta">${tags}</div></div></li>`;
+  }).join("") : `<li class="empty">${items.length ? "Selle teema kohta pole täna uudiseid." : "Uudiseid pole. Käivita fetch_data.py, et luua data.json."}</li>`;
+}
+
+// ---------- KÄIVITUS ----------
+async function refresh() {
+  $("refresh").disabled = true;
+  await loadData();
+  $("refresh").disabled = false;
+}
+$("refresh").onclick = refresh;
+refresh(); setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>

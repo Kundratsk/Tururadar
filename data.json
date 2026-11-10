@@ -1,0 +1,724 @@
+{
+ "updated": "2026-11-10T09:07:26.644149+00:00",
+ "quotes": [
+  {
+   "name": "S&P 500",
+   "price": 7549.94,
+   "pct": 2.346255723980121,
+   "index": true,
+   "digits": 2
+  },
+  {
+   "name": "Nasdaq",
+   "price": 25253.139,
+   "pct": 2.7410717918256657,
+   "index": true,
+   "digits": 2
+  },
+  {
+   "name": "Dow Jones",
+   "price": 52389.75,
+   "pct": 2.152744332240767,
+   "index": true,
+   "digits": 2
+  },
+  {
+   "name": "Euro Stoxx 50",
+   "price": 6355.87,
+   "pct": 1.0399891899625635,
+   "index": true,
+   "digits": 2
+  },
+  {
+   "name": "VIX (hirm)",
+   "price": 19.67,
+   "pct": -1.255020080321285,
+   "index": false,
+   "digits": 2
+  },
+  {
+   "name": "Nafta (WTI)",
+   "price": 84.57,
+   "pct": -2.6252158894645956,
+   "index": false,
+   "digits": 2
+  },
+  {
+   "name": "Kuld",
+   "price": 4123.2,
+   "pct": 0.21144732045205536,
+   "index": false,
+   "digits": 2
+  },
+  {
+   "name": "10a USA intress",
+   "price": 4.864,
+   "pct": 0.10290183165260122,
+   "index": false,
+   "digits": 2
+  },
+  {
+   "name": "Bitcoin",
+   "price": 74357,
+   "pct": -0.2693559907713947,
+   "prefix": "$",
+   "digits": 0
+  },
+  {
+   "name": "Ethereum",
+   "price": 2103.44,
+   "pct": -0.8502874060894907,
+   "prefix": "$",
+   "digits": 0
+  },
+  {
+   "name": "EUR/USD",
+   "price": 1.1193,
+   "pct": null,
+   "digits": 4
+  }
+ ],
+ "news": [
+  {
+   "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+   "link": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+   "src": "CNBC",
+   "date": "2026-11-10T09:01:37+00:00",
+   "desc": "SoftBank Group announces fiscal second-quarter results for the year ending March 31, 2027.",
+   "img": ""
+  },
+  {
+   "title": "Autobrains Brings NVIDIA Alpamayo Intelligence to the Road",
+   "link": "https://finance.yahoo.com/technology/ai/articles/autobrains-brings-nvidia-alpamayo-intelligence-090000945.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T09:00:00+00:00",
+   "desc": "TEL AVIV, Israel, November 10, 2026--Autobrains today announced an expansion of its work with NVIDIA, incorporating the reasoning capabilities of NVIDIA Alpamayo 2 Super into real-world autonomous dri",
+   "img": ""
+  },
+  {
+   "title": "Nvidia sued by investors over ‘Chinese spy’ affair",
+   "link": "https://uk.finance.yahoo.com/news/nvidia-sued-investors-over-chinese-085523836.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:55:23+00:00",
+   "desc": "Nvidia is facing a legal challenge from investors over claims the company lied about Jensen Huang’s affair with an alleged Chinese spy.",
+   "img": ""
+  },
+  {
+   "title": "Nvidia’s China Spy Fallout Deepens: Report Says Moonshot AI Accessed NVDA’s Advanced Chips Despite Export Controls",
+   "link": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-china-spy-fallout-deepens-report-says-moonshot-ai-accessed-nvda-s-advanced-chips-despite-export-controls/cNGua6lR97A?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:48:56+00:00",
+   "desc": "Moonshot AI accessed Nvidia’s B300 servers through a deal with Super Micro, and it's unclear whether it obtained a permit, according to a Bloomberg report.",
+   "img": ""
+  },
+  {
+   "title": "Altria Yields Nearly 6%. Here's Why I'd Buy It for a Lifetime of Passive Income.",
+   "link": "https://www.fool.com/investing/2026/11/10/altria-yields-nearly-6-heres-why-id-buy-it-for-a-l/?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:35:00+00:00",
+   "desc": "Altria's dividend yield is almost 6%. Here's what supports the payout, the risks to watch, and why income investors might hold it for decades.",
+   "img": ""
+  },
+  {
+   "title": "Elon Musk Ally Jason Calacanis Bets Another $1M On Uber — Says Waymo Team-Up Could Steal Tesla’s Driverless Crown",
+   "link": "https://stocktwits.com/news-articles/markets/equity/elon-musk-ally-jason-calacanis-1m-uber-waymo-team-up-steal-tesla-driverless-crown/cNGuaWKR97Y?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:25:57+00:00",
+   "desc": "Jason Calacanis said he bought another $1 million of Uber shares at $65, calling it half price under his valuation model.",
+   "img": ""
+  },
+  {
+   "title": "Why Netflix Stock Plunged 11% in October",
+   "link": "https://www.fool.com/investing/2026/11/10/why-netflix-stock-plunged-11-in-october/?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:25:02+00:00",
+   "desc": "The streaming pioneer is facing a crisis of confidence, but continues to execute on its mission.",
+   "img": ""
+  },
+  {
+   "title": "Tech leads stock rally as traders track Wall St rebound",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:23:52+00:00",
+   "desc": "Stocks rallied Tuesday to extend a Wall Street surge led by technology firms as investors took advantage of lower prices following last week's rout, while another plunge in oil prices added to the upb",
+   "img": ""
+  },
+  {
+   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T08:23:21+00:00",
+   "desc": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/123a/live/434e87b0-dcd9-11f1-a701-fddedf244c16.png"
+  },
+  {
+   "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
+   "link": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
+   "src": "CNBC",
+   "date": "2026-11-10T08:22:49+00:00",
+   "desc": "The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and diabetes.",
+   "img": ""
+  },
+  {
+   "title": "SPCX Stock Climbs Overnight: Tesla Influencer Presses Texas Governor-Elect — Analyst Sees 10,000 AI Racks In Space By 2028",
+   "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-tesla-influencer-texas-governor-elect-analyst-10000-ai-racks-space-2028/cNGua33R97o?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T08:16:07+00:00",
+   "desc": "Analyst Jeff Pu forecasts 10,000 AI racks and 5GW of SpaceX space-computing capacity by 2028.",
+   "img": ""
+  },
+  {
+   "title": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
+   "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T08:07:16+00:00",
+   "desc": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7d5c/live/48fcfe10-dc9a-11f1-adfe-2165436acfb4.jpg"
+  },
+  {
+   "title": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound",
+   "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+   "src": "CNBC",
+   "date": "2026-11-10T08:06:29+00:00",
+   "desc": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+   "img": ""
+  },
+  {
+   "title": "Wall Street Expects Nvidia to Sell “a Trillion Dollars of Chips” in 2029. One Investor Doubts It",
+   "link": "https://www.tikr.com/blog/wall-street-expects-nvidia-to-sell-a-trillion-dollars-of-chips-in-2029-one-investor-doubts-it?ref=yahoofinance&tlnk=yf-261110-2g7jg74g&.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T07:49:26+00:00",
+   "desc": "Key TakeawaysNvidia trades at about 15x forward earnings after a 9% drop on Nov. 5, half its three-year average.",
+   "img": ""
+  },
+  {
+   "title": "These 5 Internet Platform Stocks Run on Advertising Dollars",
+   "link": "https://www.fool.com/investing/2026/11/10/these-5-internet-platform-stocks-run-on-advertising-dollars/?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T07:07:02+00:00",
+   "desc": "Ad growth slowed at all five of these companies last quarter. Which ones have something else to rely on?",
+   "img": ""
+  },
+  {
+   "title": "Why Is TSM Stock Rising Overnight?",
+   "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-overnight/cNGuJ4aR97V?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T07:02:08+00:00",
+   "desc": "The Taiwanese contract chipmaker said October revenue rose 60%, outpacing last quarter's growth.",
+   "img": ""
+  },
+  {
+   "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+   "link": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
+   "src": "CNBC",
+   "date": "2026-11-10T07:00:02+00:00",
+   "desc": "“Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.",
+   "img": ""
+  },
+  {
+   "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+   "link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+   "src": "CNBC",
+   "date": "2026-11-10T06:52:30+00:00",
+   "desc": "Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.",
+   "img": ""
+  },
+  {
+   "title": "Quantexa Launches Supply Chain Integrity & Fraud Solution with PwC, to Expose Hidden Risk Across Multi-Tier Supplier Networks",
+   "link": "https://finance.yahoo.com/technology/ai/articles/quantexa-launches-supply-chain-integrity-063000206.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T06:30:00+00:00",
+   "desc": "Built on Quantexa’s Decision Intelligence Platform and Microsoft Azure, the solution delivers end-to-end supplier visibility and monitoring across compliance, financial risk and ESGLONDON and NEW YORK",
+   "img": ""
+  },
+  {
+   "title": "Independent bookshop closing after rise in bills",
+   "link": "https://www.bbc.co.uk/news/articles/crx2dd92ne9yo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T06:22:52+00:00",
+   "desc": "The Chicken and Frog in Brentwood says business rates and electricity bills have risen dramatically.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/10e5/live/f9225030-d9f0-11f1-bb10-cdca6001fbcf.jpg"
+  },
+  {
+   "title": "Holiday hunger bill to face final Stormont hurdle",
+   "link": "https://www.bbc.co.uk/news/articles/cmewewgvrwpqo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T06:21:02+00:00",
+   "desc": "The new law would would help poorer families with food costs during school holidays.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/059e/live/1ea6c070-dc5d-11f1-8fe6-5becaee5408f.jpg"
+  },
+  {
+   "title": "The Zacks Analyst Blog Highlights Nucor, UCB and Cheniere Energy",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nucor-062000448.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T06:20:00+00:00",
+   "desc": "NUE, UCBJY and LNG headline fresh stock picks as investors weigh AI regulation, inflation risks, oil prices and global economic developments.",
+   "img": ""
+  },
+  {
+   "title": "Trump’s C-SPAN call marks latest surprise post-midterm appearance",
+   "link": "https://www.cnbc.com/2026/11/10/trump-cspan-call-elections.html",
+   "src": "CNBC",
+   "date": "2026-11-10T06:19:09+00:00",
+   "desc": "Trump called C-SPAN's new primetime show unannounced after a surprise White House briefing-room and ballroom appearances.",
+   "img": ""
+  },
+  {
+   "title": "Alphabet, Amazon and Meta Haven’t Bought Back a Share in 2026. Big Tech Buybacks Fell 90%",
+   "link": "https://www.tikr.com/blog/alphabet-amazon-and-meta-havent-bought-back-a-share-in-2026-big-tech-buybacks-fell-90?ref=yahoofinance&tlnk=yf-261110-mv2r372c&.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T06:12:48+00:00",
+   "desc": "Key TakeawaysCombined buybacks at Alphabet, Amazon, Microsoft, Meta and Oracle fell to $4. 4 billion in the third quarter, 90% below their late-2021 peak, according to a tally by The Kobeissi Letter.",
+   "img": ""
+  },
+  {
+   "title": "New chief outlines main issues facing Isle of Man",
+   "link": "https://www.bbc.co.uk/news/articles/cw0737zmv799o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T06:09:01+00:00",
+   "desc": "The chief minister says connectivity and food storage were among his top government priorities.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1002/live/e64feac0-dc44-11f1-95cf-a38331e6cb4b.jpg"
+  },
+  {
+   "title": "Amazon's Black Friday Week and Cyber Monday Return November 19-30 with Millions of Deals to Deliver Joy This Holiday Season",
+   "link": "https://finance.yahoo.com/media-advertising/articles/amazons-black-friday-week-cyber-060000001.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T06:00:00+00:00",
+   "desc": "SEATTLE, November 10, 2026--Amazon (NASDAQ: AMZN) today announced its Black Friday Week and Cyber Monday deal events return November 19-30, kicking off the biggest holiday shopping season of the year ",
+   "img": ""
+  },
+  {
+   "title": "AMD Stock Clocks Best Day In 6 Months — But Michael Burry Won’t Touch The Nvidia Headline Trade",
+   "link": "https://stocktwits.com/news-articles/markets/equity/amd-stock-michael-burry-wont-touch-nvidia-headline-trade/cNGu40nR97l?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T05:59:07+00:00",
+   "desc": "Burry trimmed 25% of his SMH puts last week but retained substantial bearish semiconductor exposure.",
+   "img": ""
+  },
+  {
+   "title": "CRWV Rallies Ahead Of Quarterly Report: Wells Fargo Calls CoreWeave ‘Highest Quality’ Firm Among Neocloud Peers, Sees Upside",
+   "link": "https://stocktwits.com/news-articles/markets/equity/crwv-rallies-ahead-of-quarterly-report-wells-fargo-calls-core-weave-highest-quality-firm-among-neocloud-peers-sees-upside/cNGu4iQR97k?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T05:58:27+00:00",
+   "desc": "CoreWeave’s report, followed by Nebius’s, will give investors a clearer view of the neocloud sector amid a difficult stretch.",
+   "img": ""
+  },
+  {
+   "title": "EVgo: 3 Key Takeaways for Long-Term Investors",
+   "link": "https://www.fool.com/earnings/takeaways/2026/11/10/evgo-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T05:56:08+00:00",
+   "desc": "EVgo's $787 million in available liquidity and low-cost federal loans give it room to fund growth while it tightens spending, a balance long-term holders will need to watch.",
+   "img": ""
+  },
+  {
+   "title": "Moonshot AI rents Nvidia’s top chips in China, Bloomberg reports",
+   "link": "https://finance.yahoo.com/technology/ai/articles/moonshot-ai-rents-nvidia-top-054313159.html?.tsrc=rss",
+   "src": "Yahoo Finance",
+   "date": "2026-11-10T05:43:13+00:00",
+   "desc": "Investing.com-- Chinese artificial intelligence startup Moonshot accessed Nvidia’s most advanced chips this summer, Bloomberg reported on Tuesday, citing documents filed with Beijing regulators.",
+   "img": ""
+  },
+  {
+   "title": "TSMC's October sales jump as global chip boom rolls on",
+   "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+   "src": "CNBC",
+   "date": "2026-11-10T05:42:42+00:00",
+   "desc": "TSMC reports its monthly sales figures for October on Tuesday.",
+   "img": ""
+  },
+  {
+   "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+   "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T05:22:39+00:00",
+   "desc": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c11d/live/472ca6e0-dcc6-11f1-a594-d13718d7f889.jpg"
+  },
+  {
+   "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
+   "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+   "src": "CNBC",
+   "date": "2026-11-10T05:03:55+00:00",
+   "desc": "Goods exports soared by 35.2% last month from a year earlier, exceeding expectations for a 33.5% jump in a Reuters poll and slowing from a 36.3% jump in September.",
+   "img": ""
+  },
+  {
+   "title": "Trump sees 'strong inclination' to end Russia-Ukraine war ahead of U.S.-brokered peace talks",
+   "link": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html",
+   "src": "CNBC",
+   "date": "2026-11-10T04:46:37+00:00",
+   "desc": "President Trump signaled optimism for the end of Russia's war in Ukraine ahead of trilateral negotiation talks set to commence later today in Abu Dhabi.",
+   "img": ""
+  },
+  {
+   "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+   "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-10T03:38:00+00:00",
+   "desc": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+   "img": "https://images.mktw.net/im-41887542"
+  },
+  {
+   "title": "Californians reject wealth tax for billionaires",
+   "link": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T03:34:46+00:00",
+   "desc": "Proposition 40 targeted Californian billionaires with a 5% tax on their total wealth, including assets such as shares as well as income.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8df3/live/53f86970-d7b4-11f1-9092-abeae3cab3b1.jpg"
+  },
+  {
+   "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+   "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T01:55:22+00:00",
+   "desc": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/47eb/live/926fac30-dca6-11f1-86c1-89409a3a3bd9.jpg"
+  },
+  {
+   "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+   "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-10T00:48:00+00:00",
+   "desc": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
+   "img": "https://images.mktw.net/im-44995532"
+  },
+  {
+   "title": "I took Vinted to court to get my money back",
+   "link": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T00:27:37+00:00",
+   "desc": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/de22/live/e53d0e50-c7c3-11f1-bc2e-018d645d8d21.jpg"
+  },
+  {
+   "title": "The superpower battle over energy – and what it means for your bills",
+   "link": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T00:08:28+00:00",
+   "desc": "A tug-of-war between China and the US could have a big impact on energy costs, but who will win?",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9b1f/live/f53bf9d0-dc57-11f1-b441-2b33b063138f.jpg"
+  },
+  {
+   "title": "Headteachers say families will struggle after another rise in school dinner prices",
+   "link": "https://www.bbc.co.uk/news/articles/c9m262yv6yx8o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-10T00:00:22+00:00",
+   "desc": "The price of a school dinner in a primary school will have risen from £2.60 to £3.40 since the start of 2026.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ca3/live/100121b0-dc75-11f1-bbe9-83c09cc9b23f.jpg"
+  },
+  {
+   "title": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
+   "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
+   "src": "CNBC",
+   "date": "2026-11-09T23:54:21+00:00",
+   "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+   "img": ""
+  },
+  {
+   "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+   "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T23:52:00+00:00",
+   "desc": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+   "img": "https://images.mktw.net/im-69887372"
+  },
+  {
+   "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T23:51:22+00:00",
+   "desc": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg"
+  },
+  {
+   "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
+   "link": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
+   "src": "CNBC",
+   "date": "2026-11-09T23:31:17+00:00",
+   "desc": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
+   "img": ""
+  },
+  {
+   "title": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
+   "link": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html",
+   "src": "CNBC",
+   "date": "2026-11-09T23:14:38+00:00",
+   "desc": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
+   "img": ""
+  },
+  {
+   "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+   "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
+   "src": "CNBC",
+   "date": "2026-11-09T23:05:53+00:00",
+   "desc": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
+   "img": ""
+  },
+  {
+   "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
+   "link": "https://www.cnbc.com/2026/11/09/cnbcs-the-china-connection-newsletter-wall-street-dips-in-again.html",
+   "src": "CNBC",
+   "date": "2026-11-09T23:00:02+00:00",
+   "desc": "Following the latest Trump-Xi summit, China pledged further opening of its financial market to companies from all countries, including the U.S.",
+   "img": ""
+  },
+  {
+   "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
+   "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T22:49:00+00:00",
+   "desc": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
+   "img": "https://images.mktw.net/im-29972515"
+  },
+  {
+   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+   "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T22:49:00+00:00",
+   "desc": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+   "img": "https://images.mktw.net/im-95193263"
+  },
+  {
+   "title": "Hegseth impeachment articles introduced by Rep. Massie",
+   "link": "https://www.cnbc.com/2026/11/09/pete-hegseth-impeachment-articles-massie.html",
+   "src": "CNBC",
+   "date": "2026-11-09T22:41:12+00:00",
+   "desc": "The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.",
+   "img": ""
+  },
+  {
+   "title": "Trump questions midterm election results, revives voting-machine conspiracy",
+   "link": "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html",
+   "src": "CNBC",
+   "date": "2026-11-09T22:40:09+00:00",
+   "desc": "President Trump's questioning of the legitimacy of his loss in the 2020 election culminated with an attack on the U.S. Capitol by a mob of his supporters.",
+   "img": ""
+  },
+  {
+   "title": "3 unexpected reasons the October jobs report was so strong",
+   "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+   "src": "CNBC",
+   "date": "2026-11-09T22:23:56+00:00",
+   "desc": "October's jobs report blew past economist forecasts. Here are three reasons.",
+   "img": ""
+  },
+  {
+   "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+   "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T21:55:00+00:00",
+   "desc": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
+   "img": "https://images.mktw.net/im-03911341"
+  },
+  {
+   "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+   "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T21:52:28+00:00",
+   "desc": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e4e6/live/9afaf360-dccd-11f1-9b78-45da8622c809.jpg"
+  },
+  {
+   "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
+   "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T21:52:00+00:00",
+   "desc": "“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.",
+   "img": "https://images.mktw.net/im-13574872"
+  },
+  {
+   "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
+   "link": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T21:43:00+00:00",
+   "desc": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
+   "img": "https://images.mktw.net/im-27013574"
+  },
+  {
+   "title": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
+   "link": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+   "src": "CNBC",
+   "date": "2026-11-09T21:24:13+00:00",
+   "desc": "Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
+   "img": ""
+  },
+  {
+   "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+   "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T21:24:00+00:00",
+   "desc": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
+   "img": "https://images.mktw.net/im-59679463"
+  },
+  {
+   "title": "A failed trial for a heart drug casts shadow over rivals developing similar therapies",
+   "link": "https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories",
+   "src": "MarketWatch",
+   "date": "2026-11-09T21:21:00+00:00",
+   "desc": "The full data from the closely watched clinical trial showed that the drug had no cardiovascular benefit even though it reduced Lp(a) levels.",
+   "img": "https://images.mktw.net/im-68814981"
+  },
+  {
+   "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+   "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+   "src": "CNBC",
+   "date": "2026-11-09T21:03:55+00:00",
+   "desc": "The CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.",
+   "img": ""
+  },
+  {
+   "title": "Children’s Place files for bankruptcy protection, seeks buyer",
+   "link": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html",
+   "src": "CNBC",
+   "date": "2026-11-09T20:57:46+00:00",
+   "desc": "The Children's Place has filed for chapter 11 bankruptcy protection and is seeking bids from potential new owners by Dec. 9.",
+   "img": ""
+  },
+  {
+   "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+   "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
+   "src": "CNBC",
+   "date": "2026-11-09T20:29:36+00:00",
+   "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+   "img": ""
+  },
+  {
+   "title": "Trump administration proposes stricter work-search rules for unemployment benefits",
+   "link": "https://www.cnbc.com/2026/11/09/trump-unemployment-work-search-rule.html",
+   "src": "CNBC",
+   "date": "2026-11-09T19:59:55+00:00",
+   "desc": "A Labor Department proposal would require unemployment claimants to report at least five qualifying work-search activities each week.",
+   "img": ""
+  },
+  {
+   "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T19:58:01+00:00",
+   "desc": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg"
+  },
+  {
+   "title": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
+   "link": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
+   "src": "CNBC",
+   "date": "2026-11-09T19:35:58+00:00",
+   "desc": "Boeing has been working to stabilize production rates of its bestselling 737 Max planes, which are made outside of Seattle.",
+   "img": ""
+  },
+  {
+   "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
+   "link": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
+   "src": "CNBC",
+   "date": "2026-11-09T19:34:43+00:00",
+   "desc": "Sen. Elizabeth Warren telegraphed her agenda for the Senate banking committee as Congress transfers to Democratic control",
+   "img": ""
+  },
+  {
+   "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
+   "link": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
+   "src": "CNBC",
+   "date": "2026-11-09T19:23:57+00:00",
+   "desc": "United Rentals is trading at a below-market forward multiple. Effectively, one can buy superior, market-beating growth at a discounted market multiple.",
+   "img": ""
+  },
+  {
+   "title": "The facial recognition technology stopping shoplifters",
+   "link": "https://www.bbc.co.uk/news/videos/c5x2v2kpwzgvo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T19:00:43+00:00",
+   "desc": "Business correspondent Emma Simpson tries out Sainsbury's facial recognition technology.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/76aa/live/83bb9250-dc6d-11f1-b441-2b33b063138f.jpg"
+  },
+  {
+   "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+   "link": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+   "src": "CNBC",
+   "date": "2026-11-09T19:00:01+00:00",
+   "desc": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
+   "img": ""
+  },
+  {
+   "title": "How a civil servant got away with juggling five jobs for so long",
+   "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T18:40:31+00:00",
+   "desc": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg"
+  },
+  {
+   "title": "A massive trade in Nvidia just went off – here are the details",
+   "link": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
+   "src": "CNBC",
+   "date": "2026-11-09T18:37:59+00:00",
+   "desc": "Despite Monday's sell-off, options traders are targeting new highs on Nvidia",
+   "img": ""
+  },
+  {
+   "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+   "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+   "src": "CNBC",
+   "date": "2026-11-09T18:14:47+00:00",
+   "desc": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
+   "img": ""
+  },
+  {
+   "title": "Civil servant who secretly held five jobs found guilty of fraud",
+   "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T17:17:16+00:00",
+   "desc": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg"
+  },
+  {
+   "title": "Poundland unable to buy new stock as fears over collapse grow",
+   "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T16:46:40+00:00",
+   "desc": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4c59/live/3c72aa60-dc53-11f1-b8a2-9782924402f8.jpg"
+  },
+  {
+   "title": "Action on energy costs is my overriding aim, says Fahnbulleh",
+   "link": "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T16:01:19+00:00",
+   "desc": "The energy secretary says reducing bills is key to maintaining public support for climate action.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fead/live/0dafb010-dc53-11f1-a869-656dc96bd12d.jpg"
+  },
+  {
+   "title": "These states are offering extra ACA premium subsidies in 2027",
+   "link": "https://www.cnbc.com/2026/11/09/aca-state-subsidies-2027.html",
+   "src": "CNBC",
+   "date": "2026-11-09T13:00:01+00:00",
+   "desc": "Roughly a dozen states are offering some premium assistance for Obamacare enrollees, following the lapse of enhanced federal subsidies at the end of 2025.",
+   "img": ""
+  },
+  {
+   "title": "Government's EV targets expected to be reduced this week",
+   "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T12:06:22+00:00",
+   "desc": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b401/live/fd7836e0-dbdf-11f1-b348-cb75a5659779.jpg"
+  },
+  {
+   "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+   "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T07:10:11+00:00",
+   "desc": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png"
+  },
+  {
+   "title": "Doing these things now will help you save money at Christmas",
+   "link": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
+   "src": "BBC Business",
+   "date": "2026-11-09T00:09:14+00:00",
+   "desc": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/903c/live/8d645510-d9ef-11f1-bb10-cdca6001fbcf.jpg"
+  }
+ ],
+ "failed": []
+}
